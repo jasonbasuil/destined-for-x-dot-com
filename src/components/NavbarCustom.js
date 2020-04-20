@@ -19,11 +19,12 @@ function NavbarCustom(props) {
               className="d-inline-block align-top"
               src={props.logo}
               alt="Logo"
-              height="30"
+              height="50"
             ></img>
           </Navbar.Brand>
         </LinkContainer>
-
+        <h2 style={{display: "inline-block", overflow: "none", whiteSpace: "nowrap", float:"left"}}>destined for x</h2>
+    
         <Navbar.Toggle
           aria-controls="navbar-nav"
           className="border-0"

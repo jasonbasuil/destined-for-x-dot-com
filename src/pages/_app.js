@@ -25,7 +25,7 @@ function App(props) {
             bg="white"
             variant="light"
             expand="md"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo="//static1.squarespace.com/static/587dade6b3db2bee3e358563/t/5e2a80faa14fd526ec94b4d8/1584500907855/?format=1500w"
           ></NavbarCustom>
 
           <Switch>
@@ -73,9 +73,9 @@ function App(props) {
             size="sm"
             bgImage=""
             bgImageOpacity={1}
-            description="A short description of what you do here"
-            copyright="© 2019 Company"
-            logo="https://uploads.divjoy.com/logo.svg"
+            description=""
+            copyright="© 2020 Destined for X"
+            logo="http://static1.squarespace.com/static/587dade6b3db2bee3e358563/t/5e2a80faa14fd526ec94b4d8/1584500907855/?format=1500w"
           ></Footer>
         </>
       </Router>

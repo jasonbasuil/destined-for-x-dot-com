@@ -3,6 +3,10 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Clients from "./Clients";
+import FacebookLogo from "../assets/FacebookLogo.jpg"
+import GoogleLogo from "../assets/GoogleLogo.jpg"
+import MicrosoftLogo from "../assets/MicrosoftLogo.png"
+import LyftLogo from "../assets/LyftLogo.png";
 
 function ClientsSection(props) {
   return (
@@ -23,24 +27,24 @@ function ClientsSection(props) {
         <Clients
           items={[
             {
-              name: "Instagram",
-              image: "https://uploads.divjoy.com/logo-instagram.svg",
-              width: "150px",
+              name: "Facebook",
+              image: FacebookLogo,
+              width: "175px",
             },
             {
-              name: "Slack",
-              image: "https://uploads.divjoy.com/logo-slack.svg",
-              width: "135px",
+              name: "Google",
+              image: GoogleLogo,
+              width: "140px",
             },
             {
-              name: "Tinder",
-              image: "https://uploads.divjoy.com/logo-tinder.svg",
-              width: "90px",
+              name: "Microsoft",
+              image: MicrosoftLogo,
+              width: "155px",
             },
             {
-              name: "Spotify",
-              image: "https://uploads.divjoy.com/logo-spotify.svg",
-              width: "135px",
+              name: "Lyft",
+              image: LyftLogo,
+              width: "85px",
             },
           ]}
         ></Clients>

@@ -1,11 +1,12 @@
 import React from "react";
 import HeroSection from "./../components/HeroSection";
-import FeaturesSection from "./../components/FeaturesSection";
+import FeaturesSection from "../components/index/FeaturesSection";
 import ClientsSection from "./../components/ClientsSection";
 import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";
 import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
+import stanford from "../assets/Stanford.jpeg"
 
 function IndexPage(props) {
   const router = useRouter();
@@ -18,14 +19,14 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
-        buttonText="Get Started"
+        title="We empower underrepresented students to confidently craft a fulfilling future."
+        subtitle=""
+        buttonText="Learn More"
         buttonColor="primary"
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
+        image={stanford}
         buttonOnClick={() => {
           // Navigate to pricing page
-          router.push("/pricing");
+          router.push("/programs");
         }}
       ></HeroSection>
       <FeaturesSection
@@ -34,8 +35,10 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Features"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+        title="About our programs"
+        subtitle="Destined for X hosts two programs:
+        A week-long, all-expenses paid summer program in Silicon Valley where students visit top tech companies and network with industry professionals; and 
+        A mentorship program that pairs students with an industry mentor who guides them on their professional endeavors."
       ></FeaturesSection>
       <ClientsSection
         bg="white"
@@ -43,7 +46,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="You're in good company"
+        title="We partner with some of Silicon Valley's top companies"
         subtitle=""
       ></ClientsSection>
       <TestimonialsSection
@@ -52,7 +55,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Here's what people are saying"
+        title="Here's what our students are saying"
         subtitle=""
       ></TestimonialsSection>
       <CtaSection
@@ -61,7 +64,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Applications are open!"
+        title="Apply to our programs!"
         subtitle="Apply for the 2020 Destined for X virtual program! Applications are now open and acceptances will be sent out on a rolling basis. Hurry, as spaces do tend to fill up. Click below for more info."
         buttonText="Apply"
         buttonColor="primary"
