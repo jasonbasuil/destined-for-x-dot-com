@@ -1,9 +1,7 @@
 import React from "react";
 import CtaSection from "./../components/CtaSection";
-import { useRouter } from "./../util/router.js";
 
 function VolunteerPage(props) {
-  const router = useRouter();
 
   return (
     <CtaSection
@@ -17,8 +15,8 @@ function VolunteerPage(props) {
       buttonText="Get Started"
       buttonColor="primary"
       buttonOnClick={() => {
-        // Navigate to pricing page
-        router.push("/pricing");
+        // Navigate Mentor interest form
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSeFRXYntnxjSN-5a5iQ5FNJCypxsWoQZyYdzmcv67qCuVr4aw/viewform");
       }}
     ></CtaSection>
   );
