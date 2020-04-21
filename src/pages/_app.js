@@ -15,6 +15,7 @@ import { Switch, Route, Router } from "./../util/router.js";
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
+import D4XIcon from "../assets/D4XIcon.png"
 
 function App(props) {
   return (
@@ -75,7 +76,7 @@ function App(props) {
             bgImageOpacity={1}
             description=""
             copyright="© 2020 Destined for X"
-            logo="http://static1.squarespace.com/static/587dade6b3db2bee3e358563/t/5e2a80faa14fd526ec94b4d8/1584500907855/?format=1500w"
+            logo={D4XIcon}
           ></Footer>
         </>
       </Router>

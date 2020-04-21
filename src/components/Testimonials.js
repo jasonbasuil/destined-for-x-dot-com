@@ -11,7 +11,7 @@ function Testimonials(props) {
         <Col xs={12} md={4} className="py-3" key={index}>
           <Card>
             <Card.Body className="p-4 text-center">
-              <Avatar src={item.avatar} alt={item.name} size="96px"></Avatar>
+              <Avatar src={item.avatar} alt={item.name} size="120px"></Avatar>
               <Card.Text className="mt-4">"{item.testimonial}"</Card.Text>
               <h6 className="font-weight-bold mb-0 mt-4">{item.name}</h6>
               <small>{item.company}</small>
