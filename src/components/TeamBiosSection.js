@@ -3,6 +3,14 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import TeamBios from "./TeamBios";
+import Josh from "../assets/team/Josh.jpg"
+import Jason from "../assets/team/Jason.jpg"
+import Alejandro from "../assets/team/Alejandro.jpg"
+import Alex from "../assets/team/Alex.png"
+import Stacey from "../assets/team/Stacey.jpg"
+import Emily from "../assets/team/Emily.jpg"
+import Sam from "../assets/team/Sam.png"
+import Nina from "../assets/team/Nina.png"
 
 function TeamBiosSection(props) {
   return (
@@ -24,7 +32,7 @@ function TeamBiosSection(props) {
         <TeamBios
           items={[
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-68.jpeg",
+              avatar: Josh,
               name: "Joshua Mendoza",
               role: "Founder & Executive Director",
               bio:
@@ -34,7 +42,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-35.jpeg",
+              avatar: Jason,
               name: "Jason Basuil",
               role: "Co-founder & Director of Product / Curriculum",
               bio:
@@ -44,7 +52,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Alejandro,
               name: "Alejandro Pérez",
               role: "Chief Financial Officer",
               bio:
@@ -54,7 +62,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Alex,
               name: "Alex Hall",
               role: "Brand Manager",
               bio:
@@ -64,7 +72,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Stacey,
               name: "Stacey Zhou",
               role: "Program Manager, Mentorship Program",
               bio:
@@ -74,7 +82,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Emily,
               name: "Emily Castañares",
               role: "Program Manager, Mentorship Program",
               bio:
@@ -84,7 +92,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Sam,
               name: "Säm Bagheri",
               role: "",
               bio:
@@ -94,7 +102,7 @@ function TeamBiosSection(props) {
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Nina,
               name: "Nina Gibbs",
               role: "",
               bio:

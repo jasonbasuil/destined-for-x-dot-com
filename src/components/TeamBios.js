@@ -17,8 +17,8 @@ function TeamBios(props) {
         >
           <Card>
             <Card.Body className="d-flex flex-column text-center align-items-center p-4">
-              <Avatar src={item.avatar} alt={item.name} size="128px"></Avatar>
-              <h6 className="font-weight-bold mb-0 mt-4">{item.name}</h6>
+              <Avatar src={item.avatar} alt={item.name} size="148px"></Avatar>
+              <h5 className="font-weight-bold mb-0 mt-4">{item.name}</h5>
               <small>{item.role}</small>
               <Card.Text className="mt-4">{item.bio}</Card.Text>
             </Card.Body>
