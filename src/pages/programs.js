@@ -57,7 +57,7 @@ function ProgramsPage(props) {
         buttonColor="primary"
         buttonOnClick={() => {
           // Navigate to pricing page
-          router.push("/pricing");
+          router.push("/apply");
         }}
       ></CtaSection2>
     </>

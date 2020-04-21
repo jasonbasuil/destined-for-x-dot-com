@@ -24,12 +24,12 @@ function StatsSection(props) {
               stat: "100%",
             },
             {
-              title: "Another stat",
-              stat: "364",
+              title: "Volunteer Hours",
+              stat: "7,329+",
             },
             {
-              title: "Likes",
-              stat: "789",
+              title: "Recommend us",
+              stat: "4.9/5.0",
             },
           ]}
         ></Stats>
