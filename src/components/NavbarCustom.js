@@ -102,13 +102,13 @@ function NavbarCustom(props) {
               </LinkContainer>
             </Nav.Item>
 
-            {!auth.user && (
+            {/* {!auth.user && (
               <Nav.Item>
                 <LinkContainer to="/auth/login">
                   <Nav.Link active={false}>Student Login</Nav.Link>
                 </LinkContainer>
               </Nav.Item>
-            )}
+            )} */}
           </Nav>
         </Navbar.Collapse>
       </Container>

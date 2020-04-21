@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, createContext } from "react";
+import React, { useState, useContext, createContext } from "react";
 import queryString from "query-string";
 import firebase from "./firebase";
 import { createUser } from "./db";
@@ -109,13 +109,13 @@ function useProvideAuth() {
     return firebase.auth().currentUser.updatePassword(password);
   };
 
-  useEffect(() => {
-    // Subscribe to user on mount
-    const unsubscribe = firebase.auth().onAuthStateChanged(handleUser);
+  // useEffect(() => {
+  //   // Subscribe to user on mount
+  //   //const unsubscribe = firebase.auth().onAuthStateChanged(handleUser);
 
-    // Unsubscribe on cleanup
-    return () => unsubscribe();
-  }, []);
+  //   // Unsubscribe on cleanup
+  //   return () => unsubscribe();
+  // }, []);
 
   return {
     user,
@@ -150,30 +150,30 @@ const providers = [
     id: "password",
     name: "password",
   },
-  {
-    id: "google.com",
-    name: "google",
-    providerMethod: firebase.auth.GoogleAuthProvider,
-  },
-  {
-    id: "facebook.com",
-    name: "facebook",
-    providerMethod: firebase.auth.FacebookAuthProvider,
-    parameters: {
-      // Tell fb to show popup size UI instead of full website
-      display: "popup",
-    },
-  },
-  {
-    id: "twitter.com",
-    name: "twitter",
-    providerMethod: firebase.auth.TwitterAuthProvider,
-  },
-  {
-    id: "github.com",
-    name: "github",
-    providerMethod: firebase.auth.GithubAuthProvider,
-  },
+  // {
+  //   id: "google.com",
+  //   name: "google",
+  //   providerMethod: firebase.auth.GoogleAuthProvider,
+  // },
+  // {
+  //   id: "facebook.com",
+  //   name: "facebook",
+  //   providerMethod: firebase.auth.FacebookAuthProvider,
+  //   parameters: {
+  //     // Tell fb to show popup size UI instead of full website
+  //     display: "popup",
+  //   },
+  // },
+  // {
+  //   id: "twitter.com",
+  //   name: "twitter",
+  //   providerMethod: firebase.auth.TwitterAuthProvider,
+  // },
+  // {
+  //   id: "github.com",
+  //   name: "github",
+  //   providerMethod: firebase.auth.GithubAuthProvider,
+  // },
 ];
 
 const getFromQueryString = (key) => {
