@@ -29,21 +29,21 @@ function FeaturesSection3(props) {
                 {
                   title: "Get paired with a mentor",
                   description:
-                    "Imagine a world where you can chat with your friends without having to see their dumb faces.",
+                    "Find a mentor from our network who matches your interests and goals. Interested in tech, healthcare, or nonprofits? We have several mentors who are available and willing to help you on your journey.",
                   iconClass: "fas fa-comments",
                   iconColor: "primary",
                 },
                 {
                   title: "Stay accountable",
                   description:
-                    "We embedded a bunch free flash games inside our app. What we lack in quality we make up in quantity.",
+                    "No one every reaches success on their own. One of the fastest ways to achieve your own version of success if by staying accountable for your goals. Mentors will help give you the tools to keep you on track with your goals.",
                   iconClass: "fas fa-gamepad",
                   iconColor: "danger",
                 },
                 {
                   title: "Reach your goals faster",
                   description:
-                    "Our market research told us people like cats so we put some cat icons on our website.",
+                    "Make progress on your goals throughout the entire year. Get check-ins from your mentor. ",
                   iconClass: "fas fa-cat",
                   iconColor: "dark",
                 },

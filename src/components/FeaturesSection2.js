@@ -29,26 +29,26 @@ function FeaturesSection2(props) {
               {
                 title: "Skills Workshops",
                 body:
-                  "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                  "Join online workshops every week and learn how to effectively network, set goals, and figure out next steps for creating a fulfilling future for yourself.",
                 image: "https://uploads.divjoy.com/undraw-fish_bowl_uu88.svg",
               },
               {
                 title: "Panelist Discussions",
                 body:
-                  "Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus.",
+                  "Every other week, join us on calls where we will be bringing in guest panelists from top companies around Silicon Valley. Learn about different roles, industries, and stories about how they got there.",
                 image: "https://uploads.divjoy.com/undraw-directions_x53j.svg",
               },
               {
                 title: "Access to the D4X Network",
                 body:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper",
+                  "Join a community of over 500+ students, mentors, volunteers, and supporters of Destined for X. Get access to our Slack channel to continue your relationships and network with professionals.",
                 image:
                   "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg",
               },
               {
                 title: "Opportunity to join the Mentorship Program",
                 body:
-                  "Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo",
+                  "At the end of the virtual program, you'll have the opportunity to join an extended mentorship program to get 1-on-1 time with a successful professional in a field or industry that interests you.",
                 image:
                   "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
               },
