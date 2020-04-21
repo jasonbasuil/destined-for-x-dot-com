@@ -38,7 +38,7 @@ function TestimonialsSection(props) {
               name: "Rachel Ratnam",
               testimonial:
                 "I’m leaving this program as a confident, outgoing person. I know how to network and connect with people, how to approach people and have meaningful conversations. Now I feel like I can go up to anyone to hear their story and share my own. I learned so much from such successful people whom I never even thought I could say hi to. I’ve learned that I am important, and there's nothing that can stop me.",
-              company: "D4X 2018 (Senior). Currently @ Carnegie Mellon University.",
+              company: "D4X 2018 (Senior). Currently @ Carnegie Mellon.",
             },
             {
               avatar: Teland,

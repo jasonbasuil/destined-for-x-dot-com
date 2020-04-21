@@ -23,8 +23,12 @@ function NavbarCustom(props) {
             ></img>
           </Navbar.Brand>
         </LinkContainer>
-        <h2 style={{display: "inline-block", overflow: "none", whiteSpace: "nowrap", float:"left"}}>destined for x</h2>
-    
+        <LinkContainer to="/">
+          <Navbar.Brand>
+          <h2 style={{display: "inline-block", overflow: "none", whiteSpace: "nowrap", float:"left"}}>destined for x</h2>
+          </Navbar.Brand>
+        </LinkContainer>
+        
         <Navbar.Toggle
           aria-controls="navbar-nav"
           className="border-0"
