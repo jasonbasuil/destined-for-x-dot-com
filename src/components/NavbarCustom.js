@@ -61,11 +61,11 @@ function NavbarCustom(props) {
               </NavDropdown>
             )}
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <LinkContainer to="/about">
                 <Nav.Link active={false}>About</Nav.Link>
               </LinkContainer>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
               <LinkContainer to="/programs">
                 <Nav.Link active={false}>Programs</Nav.Link>

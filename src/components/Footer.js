@@ -21,7 +21,7 @@ function Footer(props) {
             </Link>
           </div>
           <div className="links right">
-            <Link to="/about">About</Link>
+            {/* <Link to="/about">About</Link> */}
             <Link to="/testimonials">Programs</Link>
             <Link to="/programs">Testimonials</Link>
             <Link to="/apply">Apply</Link>

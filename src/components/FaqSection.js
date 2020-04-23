@@ -24,30 +24,26 @@ function FaqSection(props) {
         <Faq
           items={[
             {
-              question: "Integer ornare neque mauris?",
+              question: "How much the 2020 Virtual program cost?",
               answer:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+                "Absolutely free! All we ask is that you commit to attending all sessions. We will have incentives and giveaways for students who attend all sessions (which may include scholarship opportunities, D4X apparel, mentorship opportunities and more!)",
             },
             {
-              question: "Lorem ipsum dolor sit amet?",
+              question: "What is the time commitment like for the 2020 Virtual program?",
               answer:
-                "Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+                "1 hour sessions every Thursday via ZOOM as well as few short assignments to be completed prior to each session. We estimate no more than a 3 hour total commitment every week for 6 weeks.",
             },
             {
-              question: "Suspendisse ut tincidunt?",
+              question: "What happened to the in-person program with all the cool company tours!?",
               answer:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+                "We're just as sad as you are that we aren't able to host an in-person program this year due to the COVID-19 crisis. We're trying are hardest to provide value to all students who are eligible and apply to our Virtual Program this year. We're here to help you on your life journey in any way we can... even if it's just online!",
             },
             {
-              question: "Ut enim ad minim veniam?",
+              question: "What is the best way to contact Destined for X?",
               answer:
-                "Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+                "Email us at admin@destinedforx.com",
             },
-            {
-              question: "In velit mi, rhoncus dictum neque?",
-              answer:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            },
+            
           ]}
         ></Faq>
       </Container>
