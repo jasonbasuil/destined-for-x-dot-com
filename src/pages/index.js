@@ -4,7 +4,7 @@ import FeaturesSection from "../components/index/FeaturesSection";
 import ClientsSection from "./../components/ClientsSection";
 import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";
-import NewsletterSection from "./../components/NewsletterSection";
+//import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
 
 function IndexPage(props) {
@@ -72,7 +72,7 @@ function IndexPage(props) {
           router.push("/apply");
         }}
       ></CtaSection>
-      <NewsletterSection
+      {/* <NewsletterSection
         bg="white"
         textColor="dark"
         size="md"
@@ -84,7 +84,7 @@ function IndexPage(props) {
         buttonColor="primary"
         inputPlaceholder="Enter your email"
         subscribedMessage="You are now subscribed!"
-      ></NewsletterSection>
+      ></NewsletterSection> */}
     </>
   );
 }
