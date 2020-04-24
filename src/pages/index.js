@@ -6,7 +6,6 @@ import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";
 import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
-import stanford from "../assets/Stanford.jpeg"
 
 function IndexPage(props) {
   const router = useRouter();
@@ -23,7 +22,7 @@ function IndexPage(props) {
         subtitle=""
         buttonText="Learn More"
         buttonColor="primary"
-        image={stanford}
+        image="https://res.cloudinary.com/dwgvb9rdh/image/upload/q_auto:low/v1587758853/IMG_1757_up6rnu.jpg"
         buttonOnClick={() => {
           // Navigate to pricing page
           router.push("/programs");
