@@ -30,22 +30,22 @@ function FeaturesSection3(props) {
                   title: "Get paired with a mentor",
                   description:
                     "Find a mentor from our network who matches your interests and goals. Interested in tech, healthcare, or nonprofits? We have several mentors who are available and willing to help you on your journey.",
-                  iconClass: "fas fa-comments",
+                  iconClass: "far fa-handshake",
                   iconColor: "primary",
                 },
                 {
                   title: "Stay accountable",
                   description:
                     "No one every reaches success on their own. One of the fastest ways to achieve your own version of success if by staying accountable for your goals. Mentors will help give you the tools to keep you on track with your goals.",
-                  iconClass: "fas fa-gamepad",
-                  iconColor: "danger",
+                  iconClass: "fas fa-check",
+                  iconColor: "success",
                 },
                 {
                   title: "Reach your goals faster",
                   description:
                     "Make progress on your goals throughout the entire year. Get check-ins from your mentor. ",
-                  iconClass: "fas fa-cat",
-                  iconColor: "dark",
+                  iconClass: "fas fa-bolt",
+                  iconColor: "danger",
                 },
               ]}
             ></Features3>

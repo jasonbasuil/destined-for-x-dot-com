@@ -11,9 +11,7 @@ function ApplyPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="Apply to the 2020 Virtual Program"
-        subtitle="Admissions: rolling basis until May 11, 2020 at 11:59PM PST //
-        Admissions announcement: May 14, 2020 11:59PM PST //
-        Admissions acceptance deadline + access to course materials/Slack community sent: May 18, 2020 11:59PM PST"
+        subtitle="Admissions will be accepted on a rolling basis until May 11, 2020 at 11:59PM PST"
         buttonText="Apply"
         buttonColor="primary"
         buttonOnClick={() => {
@@ -21,21 +19,21 @@ function ApplyPage(props) {
           window.open("https://docs.google.com/forms/d/e/1FAIpQLSdo9oOQ0GBy3pl2LMnjPMAY2KhvFoqmzmlyxdbxd-uQc4wQEg/viewform")
         }}
       ></CtaSection>
-      {/* <CtaSection
+      <CtaSection
       bg="white"
       textColor="dark"
       size="md"
       bgImage=""
       bgImageOpacity={1}
-      title="Apply to the 2020 Mentorship Program"
-      subtitle=""
-      buttonText="Apply"
+      title="2020 Mentorship Program"
+      subtitle="Applications for this year's mentorship program will be announced later this summer"
+      buttonText=""
       buttonColor="primary"
       buttonOnClick={() => {
         // Navigate to pricing page
         window.open("www.destinedforx.com")
       }}
-    ></CtaSection> */}
+    ></CtaSection>
     </Fragment>
   );
 }

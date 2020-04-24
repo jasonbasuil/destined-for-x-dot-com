@@ -4,6 +4,7 @@ import FeaturesSection2 from "./../components/FeaturesSection2";
 import FeaturesSection3 from "./../components/FeaturesSection3";
 import CtaSection2 from "./../components/CtaSection2";
 import { useRouter } from "./../util/router.js";
+import undraw_people from "../assets/icons/undraw_people_tax5.svg"
 
 function ProgramsPage(props) {
   const router = useRouter();
@@ -32,39 +33,45 @@ function ProgramsPage(props) {
         <h3>Overview of 2020 Virtual Sessions</h3>
       </div>
       <br/>
-        <div style={{marginLeft: "10%", marginRight: "10%"}}>
-          <h4>*Weekly Sessions on Thursdays from 6-7pm PST</h4>
+        <div style={{marginLeft: "16%", marginRight: "16%"}}>
+          <h4 style={{marginBottom: "20px"}}>* Weekly Sessions on Thursdays from 6-7pm PST</h4>
           <ul>
-            <li><h5>May 28: The Fastest Path to Your Goals or Career Ambitions</h5></li>
+            <li><h5>May 28 - The Fastest Path to Your Goals or Career Ambitions</h5></li>
               <ul>
                 <li>How to network and create lasting relationships</li>
                 <li>Utilizing LinkedIn to your professional advantage</li>
                 <li>Conducting informational interviews to figure out if a career if right for you</li>
               </ul>
-            <li><h5>June 4: Panel: Learn from Employees at a Top Tech Company like Facebook or Google</h5></li>
+              <br/>
+            <li><h5>June 4 - Panel: Learn from Employees at a Top Tech Company like Facebook or Google</h5></li>
             <ul>
               <li>Learn about what it's really like working at a top Silicon Valley company</li>
               <li>What are the different roles at tech companies (from engineering, HR, product management, marketing, and more)</li>
               <li>Learn how these professionals got to where they are today</li>
             </ul>
-            <li><h5>June 11: Becoming More Confidently Self-Aware of Your Strengths and Motivations</h5></li>
+            <br/>
+            <li><h5>June 11 - Becoming More Confidently Self-Aware of Your Strengths and Motivations</h5></li>
             <ul>
               <li>Determining what's really important to you through your Core Values</li>
               <li>Exploring your WHY. What it is and why it's an important guide in your life</li>
               <li>Identifying your personal strengths and becoming more confident in your communication with others</li>
             </ul>
-            <li><h5>June 18: Panel: Meet with Recruiters and Industry Professionals to Help with Resumes and Job/Internship searching</h5></li>
+            <br/>
+            <li><h5>June 18 - Panel: Meet with Recruiters and Industry Professionals to Help with Resumes and Job/Internship searching</h5></li>
             <ul>
               <li>When should you start thinking about jobs and internships?</li>
               <li>What can you start doing now as a high school student to set yourself up for job success?</li>
+              <li>What are the top tips and tricks while interviewing for a new job?</li>
             </ul>
-            <li><h5>June 25: Taking Bold Action to Achieve Your Personal Goals</h5></li>
+            <br/>
+            <li><h5>June 25 - Taking Bold Action to Achieve Your Personal Goals</h5></li>
             <ul>
               <li>The power of setting effective goals</li>
               <li>Gain your time back with proper time-management skills & lessening distractions</li>
               <li>What it means to have a mentor and how to find one</li>
             </ul>
-            <li><h5>July 2: Panel: Meet with College Admissions Professionals to Answer All Your Questions</h5></li>
+            <br/>
+            <li><h5>July 2 - Panel: Meet with College Admissions Professionals to Answer All Your Questions</h5></li>
             <ul>
               <li>What does it take to get into the college of your dreams?</li>
               <li>How can you attend college for a fraction of the cost?</li>
@@ -74,7 +81,7 @@ function ProgramsPage(props) {
           </ul>
         </div>
         <br/>
-        <div style={{marginLeft: "10%"}}>*Workshops/panels are subject to change upon availability.</div>
+        <div style={{marginLeft: "16%", marginBottom: "2%"}}>* Workshops / panels are subject to change upon availability.</div>
       <HeroSection2
         bg="light"
         textColor="dark"
@@ -90,7 +97,7 @@ function ProgramsPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        image="https://uploads.divjoy.com/undraw-chatting_2yvo.svg"
+        image={undraw_people}
       ></FeaturesSection3>
       <CtaSection2
         bg="white"

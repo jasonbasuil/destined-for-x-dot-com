@@ -20,13 +20,15 @@ function CtaSection(props) {
           size={1}
           spaced={true}
         ></SectionHeader>
-        <Button
+        {props.buttonText && (
+          <Button
           variant={props.buttonColor}
           size="lg"
           onClick={props.buttonOnClick}
         >
           {props.buttonText}
         </Button>
+        )}
       </Container>
     </Section>
   );
