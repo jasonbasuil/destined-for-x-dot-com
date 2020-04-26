@@ -28,6 +28,8 @@ function Footer(props) {
             <Link target="_blank" to="/team" rel="noopener noreferrer">
               Team
             </Link>
+          </div>
+          <div className="links right">
             <Link to="/volunteer">Volunteer</Link>
             <Link to="/donate">Donate</Link>
             <Link to="/faq">FAQ</Link>
