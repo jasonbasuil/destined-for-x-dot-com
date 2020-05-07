@@ -3,6 +3,7 @@ import HeroSection2 from "./../components/HeroSection2";
 import FeaturesSection2 from "./../components/FeaturesSection2";
 import FeaturesSection3 from "./../components/FeaturesSection3";
 import CtaSection2 from "./../components/CtaSection2";
+import SpeakersSection from "./../components/SpeakersSection";
 import { useRouter } from "./../util/router.js";
 import undraw_people from "../assets/icons/undraw_people_tax5.svg"
 
@@ -30,7 +31,7 @@ function ProgramsPage(props) {
         subtitle=""
       ></FeaturesSection2>
       <div style={{textAlign: "center"}}>
-        <h3>Overview of 2020 Virtual Sessions</h3>
+        <h2>Overview of 2020 Virtual Sessions</h2>
       </div>
       <br/>
         <div style={{marginLeft: "16%", marginRight: "16%"}}>
@@ -82,6 +83,15 @@ function ProgramsPage(props) {
         </div>
         <br/>
         <div style={{marginLeft: "16%", marginBottom: "2%"}}>* Workshops / panels are subject to change upon availability.</div>
+      <SpeakersSection 
+        bg="white"
+        textColor="dark"
+        size="sm"
+        bgImage=""
+        bgImageOpacity={1}
+        title="Confirmed Speakers"
+        subtitle=""
+      />
       <HeroSection2
         bg="light"
         textColor="dark"
