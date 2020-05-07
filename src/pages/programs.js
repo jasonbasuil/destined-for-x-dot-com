@@ -40,7 +40,7 @@ function ProgramsPage(props) {
               <ul>
                 <li>How to network and create lasting relationships</li>
                 <li>Utilizing LinkedIn to your professional advantage</li>
-                <li>Conducting informational interviews to figure out if a career if right for you</li>
+                <li>Conducting informational interviews to figure out if a career is right for you</li>
               </ul>
               <br/>
             <li><h5>June 4 - Panel: Learn from Employees at a Top Tech Company like Facebook or Google</h5></li>

@@ -36,8 +36,8 @@ function IndexPage(props) {
         bgImageOpacity={1}
         title="About our programs"
         subtitle="Destined for X hosts two programs:
-        A week-long, all-expenses paid summer program in Silicon Valley where students visit top tech companies and network with industry professionals; and 
-        A mentorship program that pairs students with an industry mentor who guides them on their professional endeavors."
+        a week-long, all-expenses paid summer program in Silicon Valley where students visit top tech companies and network with industry professionals; and 
+        a mentorship program that pairs students with an industry mentor who guides them on their professional endeavors."
       ></FeaturesSection>
       <ClientsSection
         bg="white"
@@ -45,7 +45,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="We partner with some of Silicon Valley's top companies"
+        title="We partner with top Silicon Valley companies"
         subtitle=""
       ></ClientsSection>
       <TestimonialsSection

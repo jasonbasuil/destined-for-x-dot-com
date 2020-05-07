@@ -44,7 +44,7 @@ function FeaturesSection(props) {
             {
               title: "Build lifelong friendships",
               description:
-                "Experience and unforgettable summer program and make some new friends. You'll be joining a fast-growing community of learners, self-starters, and motivated individuals who will uplift you and help you get to where you want to go in life.",
+                "Experience an unforgettable summer program and make some new friends. You'll be joining a fast-growing community of learners, self-starters, and motivated individuals who will uplift you and help you get to where you want to go in life.",
               image: "https://res.cloudinary.com/dwgvb9rdh/image/upload/q_auto/v1587759904/IMG_1847_q1ao8i.jpg",
             },
           ]}

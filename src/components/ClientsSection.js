@@ -7,6 +7,7 @@ import FacebookLogo from "../assets/FacebookLogo.jpg"
 import GoogleLogo from "../assets/GoogleLogo.jpg"
 import MicrosoftLogo from "../assets/MicrosoftLogo.png"
 import LyftLogo from "../assets/LyftLogo.png";
+import AppleLogo from "../assets/AppleLogo.png"
 
 function ClientsSection(props) {
   return (
@@ -29,17 +30,22 @@ function ClientsSection(props) {
             {
               name: "Facebook",
               image: FacebookLogo,
-              width: "175px",
+              width: "195px",
             },
             {
               name: "Google",
               image: GoogleLogo,
-              width: "140px",
+              width: "150px",
+            },
+            {
+              name: "Apple",
+              image: AppleLogo,
+              width: "50px"
             },
             {
               name: "Microsoft",
               image: MicrosoftLogo,
-              width: "155px",
+              width: "180px",
             },
             {
               name: "Lyft",
