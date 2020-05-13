@@ -11,7 +11,7 @@ function ApplyPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="Apply to the 2020 Virtual Program"
-        subtitle="Admissions will be accepted on a rolling basis until May 11, 2020 at 11:59PM PST"
+        subtitle="Admissions will be accepted on a rolling basis until May 17, 2020 at 11:59PM PST"
         buttonText="Apply"
         buttonColor="primary"
         buttonOnClick={() => {
