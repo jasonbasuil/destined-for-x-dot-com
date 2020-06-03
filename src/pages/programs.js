@@ -109,6 +109,15 @@ function ProgramsPage(props) {
         bgImageOpacity={1}
         image={undraw_people}
       ></FeaturesSection3>
+      <HeroSection2
+        bg="light"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="Destined for X Miami"
+        subtitle="We are excited to announce that we will be launching a branch of Destined for X in Miami! Stay tuned for details."
+      ></HeroSection2>
       <CtaSection2
         bg="white"
         textColor="dark"
@@ -120,7 +129,6 @@ function ProgramsPage(props) {
         buttonText="Apply"
         buttonColor="primary"
         buttonOnClick={() => {
-          // Navigate to pricing page
           router.push("/apply");
         }}
       ></CtaSection2>

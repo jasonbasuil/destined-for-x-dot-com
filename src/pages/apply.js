@@ -15,7 +15,6 @@ function ApplyPage(props) {
         buttonText="Apply"
         buttonColor="primary"
         buttonOnClick={() => {
-          // Navigate to pricing page
           window.open("https://docs.google.com/forms/d/e/1FAIpQLSdo9oOQ0GBy3pl2LMnjPMAY2KhvFoqmzmlyxdbxd-uQc4wQEg/viewform")
         }}
       ></CtaSection>
@@ -30,7 +29,20 @@ function ApplyPage(props) {
       buttonText=""
       buttonColor="primary"
       buttonOnClick={() => {
-        // Navigate to pricing page
+        window.open("www.destinedforx.com")
+      }}
+    ></CtaSection>
+    <CtaSection
+      bg="white"
+      textColor="dark"
+      size="md"
+      bgImage=""
+      bgImageOpacity={1}
+      title="Destined for X Miami"
+      subtitle="Coming Soon: we are excited to announce that we will be launching a branch of Destined for X in Miami! Stay tuned for details."
+      buttonText=""
+      buttonColor="primary"
+      buttonOnClick={() => {
         window.open("www.destinedforx.com")
       }}
     ></CtaSection>
