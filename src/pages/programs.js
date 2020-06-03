@@ -44,7 +44,7 @@ function ProgramsPage(props) {
                 <li>Conducting informational interviews to figure out if a career is right for you</li>
               </ul>
               <br/>
-            <li><h5>June 4 - Panel: Learn from Employees at a Top Tech Company like Facebook or Google</h5></li>
+            <li><h5>June 4 - Panel: Learn from Employees at a Top Silicon Valley Tech Company</h5></li>
             <ul>
               <li>Learn about what it's really like working at a top Silicon Valley company</li>
               <li>What are the different roles at tech companies (from engineering, HR, product management, marketing, and more)</li>
