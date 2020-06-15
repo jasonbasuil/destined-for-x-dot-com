@@ -6,6 +6,8 @@ import Testimonials from "./Testimonials";
 import JuanPalominos from "../assets/JuanPalominos.png";
 import GiselleMondragon from "../assets/GiselleMondragon.png";
 import LibbePhan from "../assets/LibbePhan.jpg";
+import BritneyOhanian from "../assets/BritneyOhanian.jpg";
+import CiaraRogers from "../assets/CiaraRogers.png";
 
 function TestimonialsSection(props) {
   return (
@@ -67,6 +69,21 @@ function TestimonialsSection(props) {
                 `I'll forever be indebted to D4X. I don't how I can ever repay you all. When I told my friends who were interested in applying about this program, I don't think they really truly understood how much I gained from D4X. Hopefully my friends who ended up in cohort value all the work you guys do.`,
               company: "D4X 2019 (Junior). Currently @ Irvine Valley College.",
             },
+            {
+              avatar: BritneyOhanian,
+              name: "Britney Ohanian",
+              testimonial:
+                `I learned how to communicate, how to be comfortable being uncomfortable and that I can pursue anything I put my mind to.`,
+              company: "D4X 2019 (Junior). Currently @ Antelope Valley College",
+            },
+            {
+              avatar: CiaraRogers,
+              name: "Ciara Rogers",
+              testimonial:
+                `The thing that stuck with me the most is that your pathway is not set in stone. There's more within a pathway. Taking detours and figuring out that you might have not gone the right way is okay.`,
+              company: "D4X 2017 (Senior). Currently @ San Jose State University",
+            },
+
           ]}
         ></Testimonials>
       </Container>
