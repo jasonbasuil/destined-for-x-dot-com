@@ -33,7 +33,7 @@ function TestimonialsSection2(props) {
             },
             {
               avatar: undraw_profile_pic,
-              name: "Kurtis",
+              name: "Curtis Calder",
               testimonial:
                 "Libbe demonstrated a tremendous amount of personal growth throughout the year. The most noticeable was in her confidence. For example, she started her own Humankind Zine but was really keeping it a secret since she wasn't sure how it would be received. Over the course of knowing her she worked up the courage and finally told people in her personal life about her online magazine. She received a lot of support from her friends after sharing and is getting ready for her first publication. She received over 100 artists who submitted work and has looped in friends to help due to the unexpected volume.",
               company: "Mentor to Libbe Phan",
