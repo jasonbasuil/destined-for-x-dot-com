@@ -3,7 +3,9 @@ import "./../styles/global.scss";
 import NavbarCustom from "./../components/NavbarCustom";
 import IndexPage from "./index";
 import AboutPage from "./about";
-import ProgramsPage from "./programs";
+import VirtualProgramPage from "./virtual-program";
+import MentorshipProgramPage from "./mentorship-program";
+import MiamiProgramPage from "./miami-program";
 import TestimonialsPage from "./testimonials";
 import ApplyPage from "./apply";
 import TeamPage from "./team";
@@ -34,8 +36,12 @@ function App(props) {
 
             <Route exact path="/about" component={AboutPage} />
 
-            <Route exact path="/programs" component={ProgramsPage} />
+            <Route exact path="/virtual-program" component={VirtualProgramPage} />
 
+            <Route exact path="/mentorship-program" component={MentorshipProgramPage}/>
+
+            <Route exact path="/miami-program" component={MiamiProgramPage}/>
+ 
             <Route exact path="/testimonials" component={TestimonialsPage} />
 
             <Route exact path="/apply" component={ApplyPage} />

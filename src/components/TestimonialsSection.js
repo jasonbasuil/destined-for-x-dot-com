@@ -26,6 +26,8 @@ function TestimonialsSection(props) {
           spaced={true}
           className="text-center"
         ></SectionHeader>
+        {/* <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6677412852850143233" height="395" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6678130658596007936" height="528" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
         <Testimonials
           items={[
             {

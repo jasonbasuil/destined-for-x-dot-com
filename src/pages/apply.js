@@ -1,7 +1,10 @@
 import React, {Fragment} from "react";
 import CtaSection from "../components/CtaSection"
+import { useRouter } from "../util/router.js";
 
 function ApplyPage(props) {
+  const router = useRouter();
+
   return (
     <Fragment>
     <CtaSection
@@ -10,9 +13,9 @@ function ApplyPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Apply to the 2020 Virtual Program"
-        subtitle="Admissions will be accepted on a rolling basis until May 17, 2020 at 11:59PM PST"
-        buttonText="Apply"
+        title="2020 Virtual Program (closed)"
+        subtitle="The application cycle for 2020 has concluded. Be on the lookout for our 2021 programs!"
+        buttonText=""
         buttonColor="primary"
         buttonOnClick={() => {
           window.open("https://docs.google.com/forms/d/e/1FAIpQLSdo9oOQ0GBy3pl2LMnjPMAY2KhvFoqmzmlyxdbxd-uQc4wQEg/viewform")
@@ -26,10 +29,10 @@ function ApplyPage(props) {
       bgImageOpacity={1}
       title="2020 Mentorship Program"
       subtitle="Applications for this year's mentorship program will be announced later this summer"
-      buttonText=""
+      buttonText="Learn more"
       buttonColor="primary"
       buttonOnClick={() => {
-        window.open("www.destinedforx.com")
+        router.push("/mentorship-program")
       }}
     ></CtaSection>
     <CtaSection
