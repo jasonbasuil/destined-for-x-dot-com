@@ -5,6 +5,7 @@ import CtaSection2 from "../components/CtaSection2";
 import { useRouter } from "../util/router.js";
 import undraw_people from "../assets/icons/undraw_people_tax5.svg"
 import TestimonialsSection2 from "../components/TestimonialsSection2";
+import FaqSection2 from "../components/FaqSection2";
 
 function MentorshipProgramPage(props) {
   const router = useRouter();
@@ -21,7 +22,7 @@ function MentorshipProgramPage(props) {
         subtitle="Be paired with a professional mentor for continuous support throughout the school year."
       ></HeroSection2>
       <FeaturesSection3
-        bg="white"
+        bg="light"
         textColor="dark"
         size="md"
         bgImage=""
@@ -37,6 +38,15 @@ function MentorshipProgramPage(props) {
         title="Testimonials"
         subtitle=""
       ></TestimonialsSection2>
+      <FaqSection2
+        bg="light"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="Frequently Asked Questions"
+        subtitle=""
+      ></FaqSection2>
       <CtaSection2
         bg="dark"
         textColor="white"
