@@ -9,7 +9,8 @@ import MaddyRueda from "../assets/speakers/MaddyRueda.jpg"
 import ChristianColy from "../assets/speakers/ChristianColy.png"
 import AndresMarquez from "../assets/speakers/AndresMarquez.png";
 import PriyaGanesan from "../assets/speakers/PriyaGanesan.png";
-import MichelleTanaka from "../assets/speakers/MichelleTanaka.png"
+import MichelleTanaka from "../assets/speakers/MichelleTanaka.png";
+import AshleyBuckner from "../assets/speakers/AshleyBuckner.jpg";
 
 function SpeakersSection(props) {
   return (
@@ -78,6 +79,13 @@ function SpeakersSection(props) {
               bio:
                 "Maddy is currently a Staffing Services Associate at Google. Formerly a student athlete for Southern Methodist University's Division I Rowing Team, she graduated in 2018 with degrees in Marketing and Sport Management. She is passionate about career development, non-profit engagement, diversity and inclusion. Originally from New England, she is a Boston Bruins fan and an avid skier.",
               company: "Staffing Services Associate @ Google",
+            },
+            {
+              avatar: AshleyBuckner,
+              name: "Ashley Buckner",
+              bio:
+                "Ashley Buckner is the Admission Operations Manager at the Stanford Office of Undergraduate Admission. Prior to this role, Ashley served as an admission officer for five years and helped manage the Stanford alumni admission volunteer program. Ashley graduated from Stanford in 2012 with a major in Public Policy and a minor in Psychology.",
+              company: "Admissions Operations Manager @ Stanford Office of Undergraduate Admission",
             },
           ]}
         ></Speakers>
