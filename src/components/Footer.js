@@ -22,8 +22,8 @@ function Footer(props) {
           </div>
           <div className="links right">
             {/* <Link to="/about">About</Link> */}
-            <Link to="/testimonials">Programs</Link>
-            <Link to="/programs">Testimonials</Link>
+            <Link to="/virtual-program">Programs</Link>
+            <Link to="/testimonials">Testimonials</Link>
             <Link to="/apply">Apply</Link>
             <Link target="_blank" to="/team" rel="noopener noreferrer">
               Team
