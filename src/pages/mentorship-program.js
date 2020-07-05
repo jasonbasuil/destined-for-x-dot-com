@@ -51,7 +51,7 @@ function MentorshipProgramPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Apply to the Destined for X Mentorship Program for the 2020-2021 academic year today."
+        title="Applications for the Mentorship Program are open!"
         subtitle=""
         buttonText="Apply"
         buttonColor="primary"
