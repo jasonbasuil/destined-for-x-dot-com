@@ -1,9 +1,7 @@
 import React, {Fragment} from "react";
 import CtaSection from "../components/CtaSection"
-import { useRouter } from "../util/router.js";
 
 function ApplyPage(props) {
-  const router = useRouter();
 
   return (
     <Fragment>
@@ -28,11 +26,11 @@ function ApplyPage(props) {
       bgImage=""
       bgImageOpacity={1}
       title="2020 Mentorship Program"
-      subtitle="Applications for this year's mentorship program will be announced later this summer"
-      buttonText="Learn more"
+      subtitle="The application for the mentorship program for the 2020-2021 academic year is now open!"
+      buttonText="Apply"
       buttonColor="primary"
       buttonOnClick={() => {
-        router.push("/mentorship-program")
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSd15C00Gl3iXbnRyrgn2bO2vSnbj8jCXRM6guqxAq-RHaDIlQ/viewform")
       }}
     ></CtaSection>
     <CtaSection

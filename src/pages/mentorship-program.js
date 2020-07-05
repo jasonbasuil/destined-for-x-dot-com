@@ -2,13 +2,11 @@ import React from "react";
 import HeroSection2 from "../components/HeroSection2";
 import FeaturesSection3 from "../components/FeaturesSection3";
 import CtaSection2 from "../components/CtaSection2";
-import { useRouter } from "../util/router.js";
 import undraw_people from "../assets/icons/undraw_people_tax5.svg"
 import TestimonialsSection2 from "../components/TestimonialsSection2";
 import FaqSection2 from "../components/FaqSection2";
 
 function MentorshipProgramPage(props) {
-  const router = useRouter();
 
   return (
     <>
@@ -53,12 +51,12 @@ function MentorshipProgramPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Apply to a 2020 program today."
+        title="Apply to the Destined for X Mentorship Program for the 2020-2021 academic year today."
         subtitle=""
         buttonText="Apply"
         buttonColor="primary"
         buttonOnClick={() => {
-          router.push("/apply");
+          window.open("https://docs.google.com/forms/d/e/1FAIpQLSd15C00Gl3iXbnRyrgn2bO2vSnbj8jCXRM6guqxAq-RHaDIlQ/viewform");
         }}
       ></CtaSection2>
     </>
