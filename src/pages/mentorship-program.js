@@ -51,7 +51,7 @@ function MentorshipProgramPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Applications for the Mentorship Program are open!"
+        title="Student applications for the Mentorship Program are now open!"
         subtitle=""
         buttonText="Apply"
         buttonColor="primary"
