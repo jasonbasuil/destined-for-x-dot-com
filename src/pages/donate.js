@@ -33,7 +33,7 @@ function DonatePage(props) {
         subtitle=""
       ></SchoolsSection>
       <StatsSection
-        bg="white"
+        bg="light"
         textColor="dark"
         size="md"
         bgImage=""
@@ -57,7 +57,6 @@ function DonatePage(props) {
         buttonText="Donate"
         buttonColor="primary"
         buttonOnClick={() => {
-          // Navigate to pricing page
           window.open("https://www.paypal.com/us/fundraiser/charity/2767731");
         }}
       ></CtaSection>

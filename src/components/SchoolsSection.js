@@ -14,6 +14,7 @@ import SJSU from "../assets/schools/SJSU.png"
 import UCMerced from "../assets/schools/Merced.png"
 import Dartmouth from "../assets/schools/Dartmouth.png"
 import AntelopeValley from "../assets/schools/AntelopeValley.png"
+import UCLA from "../assets/schools/UCLA.png"
 
 function SchoolsSection(props) {
   return (
@@ -88,6 +89,11 @@ function SchoolsSection(props) {
               image: SJSU,
               width: "205px",
             },
+            {
+              name: "UCLA",
+              image: UCLA,
+              width: "210px"
+            }
 
           ]}
         ></Clients>

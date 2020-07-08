@@ -87,7 +87,7 @@ function VirtualProgramPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Confirmed Speakers"
+        title="2020 Confirmed Speakers"
         subtitle=""
       />
       <CtaSection2
@@ -96,7 +96,7 @@ function VirtualProgramPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Our 2020 Virtual Program is currently in session"
+        title="Our 2020 Virtual Program has concluded"
         subtitle="We will be planning the 2021 program this coming year. Stay tuned!"
         buttonText="Apply for another program"
         buttonColor="primary"

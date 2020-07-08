@@ -17,7 +17,7 @@ function StatsSection(props) {
           items={[
             {
               title: "Students served",
-              stat: "100",
+              stat: "108",
             },
             {
               title: "% attending college",
@@ -28,8 +28,8 @@ function StatsSection(props) {
               stat: "7,329+",
             },
             {
-              title: "Recommend us",
-              stat: "4.9/5.0",
+              title: "% Students Recommend us (2020)",
+              stat: "100%",
             },
           ]}
         ></Stats>
