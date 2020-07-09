@@ -6,7 +6,7 @@ import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";
 //import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
-import montage from "../assets/videos/montage.mp4";
+import montage from "../assets/videos/montage2.mp4";
 import MediaQuery from "react-responsive";
 
 function IndexPage(props) {
