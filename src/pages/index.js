@@ -6,12 +6,16 @@ import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";
 //import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
+import montage from "../assets/videos/montage.mp4";
 
 function IndexPage(props) {
   const router = useRouter();
 
   return (
     <>
+      <video autoPlay muted loop id="montage" width="100%">
+        <source src={montage} type="video/mp4"></source>
+      </video>
       <HeroSection
         bg="white"
         textColor="dark"
