@@ -7,19 +7,22 @@ import CtaSection from "./../components/CtaSection";
 //import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
 import montage from "../assets/videos/montage.mp4";
+import MediaQuery from "react-responsive";
 
 function IndexPage(props) {
   const router = useRouter();
 
   return (
     <>
-      <video autoPlay muted loop id="montage" width="100%">
-        <source src={montage} type="video/mp4"></source>
-      </video>
+      <MediaQuery minDeviceWidth={1224}>
+        <video autoPlay muted loop id="montage" width="100%">
+          <source src={montage} type="video/mp4"></source>
+        </video>
+      </MediaQuery>
       <HeroSection
         bg="white"
         textColor="dark"
-        size="md"
+        size="lg"
         bgImage=""
         bgImageOpacity={1}
         title="We empower underrepresented students to confidently craft a fulfilling future."
