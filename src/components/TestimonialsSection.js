@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Testimonials from "./Testimonials";
 import JuanPalominos from "../assets/JuanPalominos.png";
-import GiselleMondragon from "../assets/GiselleMondragon.png";
+import GisselleMondragon from "../assets/GisselleMondragon.png";
 import LibbePhan from "../assets/LibbePhan.jpg";
-import BritneyOhanian from "../assets/BritneyOhanian.jpg";
+import BritneyOhaya from "../assets/BritneyOhaya.jpg";
 import CiaraRogers from "../assets/CiaraRogers.png";
 
 function TestimonialsSection(props) {
@@ -52,8 +52,8 @@ function TestimonialsSection(props) {
               company: "D4X 2019 (Junior). Incoming @ Stanford University.",
             },
             {
-              avatar: GiselleMondragon,
-              name: "Giselle Mondragon",
+              avatar: GisselleMondragon,
+              name: "Gisselle Mondragon",
               testimonial: "What really stuck with me is the importance of first impressions and professionalism. I realized the importance of first impressions and communication after the program because I ended up getting a job interview for my school's bookstore. I was happy to know that I was very prepared for the interview and was not as nervous to ask questions or to answer them. I was able to get another interview for another opportunity right after!",
               company: "D4X 2017 (Junior). Currently @ CSU Long Beach"
             },
@@ -72,8 +72,8 @@ function TestimonialsSection(props) {
               company: "D4X 2019 (Junior). Currently @ Irvine Valley College.",
             },
             {
-              avatar: BritneyOhanian,
-              name: "Britney Ohanian",
+              avatar: BritneyOhaya,
+              name: "Britney Ohaya",
               testimonial:
                 `I learned how to communicate, how to be comfortable being uncomfortable and that I can pursue anything I put my mind to.`,
               company: "D4X 2019 (Junior). Currently @ Antelope Valley College",
