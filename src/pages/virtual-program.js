@@ -4,6 +4,8 @@ import FeaturesSection2 from "../components/FeaturesSection2";
 import CtaSection2 from "../components/CtaSection2";
 import SpeakersSection from "../components/SpeakersSection";
 import { useRouter } from "../util/router.js";
+import virtualprogram1 from "../assets/events/virtualprogram1.JPG"
+import virtualprogram2 from "../assets/events/virtualprogram2.JPG"
 
 function VirtualProgramPage(props) {
   const router = useRouter();
@@ -17,8 +19,12 @@ function VirtualProgramPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="2020 Virtual Program"
-        subtitle="Amidst the COVID-19 crisis, Destined for X will be hosting a virtual program to provide students with valuable life skills as well as the opportunity to network with professionals from various job functions and industries all around Silicon Valley."
+        subtitle="Amidst the COVID-19 crisis, Destined for X hosted a virtual program to provide students with valuable life skills as well as the opportunity to network with professionals from various job functions and industries all around Silicon Valley."
       ></HeroSection2>
+      <span>
+        <img src={virtualprogram1} alt='screenshot of zoom call 1' width="50%"></img>
+        <img src={virtualprogram2} alt='screenshot of zoom call 1' width="50%"></img>
+      </span>
       <FeaturesSection2
         bg="white"
         textColor="dark"
