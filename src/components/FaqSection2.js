@@ -33,6 +33,10 @@ function FaqSection2(props) {
               answer: "You are expected to meet with your mentee for ~1 hour every month (phone, facetime, or in person) and attend a program check-in once every 2 months (Google Hangouts). The meeting time with your mentee is flexible, and you and your mentee will need to coordinate (text or email) to set up a time each month.",
             },
             {
+              question: "When should I expect to hear back after submitting my application?",
+              answer: "Expect to hear back from us on August 16th! We will be actively working to find the right fit between mentors and mentees based on interests, career/personal goals, etc. Thanks for your patience!"
+            },
+            {
               question: "I have more questions! Who do I contact for more info?",
               answer: "If you would like to learn more about our program, please feel free to email the Program Directors at stacey.zhou@destinedforx.com and emily.castanares@destinedforx.com."
             },
