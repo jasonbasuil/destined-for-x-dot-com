@@ -51,12 +51,26 @@ function MentorshipProgramPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Student applications for the Mentorship Program are now open!"
+        title="Mentee Application Form"
         subtitle=""
         buttonText="Apply"
         buttonColor="primary"
         buttonOnClick={() => {
           window.open("https://docs.google.com/forms/d/e/1FAIpQLSd15C00Gl3iXbnRyrgn2bO2vSnbj8jCXRM6guqxAq-RHaDIlQ/viewform");
+        }}
+      ></CtaSection2>
+      <CtaSection2
+        bg="secondary"
+        textColor="white"
+        size="sm"
+        bgImage=""
+        bgImageOpacity={1}
+        title="Mentor Application Form"
+        subtitle=""
+        buttonText="Apply"
+        buttonColor="primary"
+        buttonOnClick={() => {
+          window.open("https://docs.google.com/forms/d/e/1FAIpQLSeFRXYntnxjSN-5a5iQ5FNJCypxsWoQZyYdzmcv67qCuVr4aw/viewform");
         }}
       ></CtaSection2>
     </>

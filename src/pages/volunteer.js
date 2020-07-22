@@ -11,7 +11,7 @@ function VolunteerPage(props) {
       bgImage=""
       bgImageOpacity={1}
       title="Apply to be a mentor!"
-      subtitle="We're always looking for committed individuals who believe in empowering young people. A great way to get involved with Destined for X is to volunteer to be a mentor. We are looking for early- to mid-career professionals to serve as mentors to our students to advise them in their high school/college careers. Being a mentor is a high-impact, low-time commitment opportunity and a great way to support the mission of Destined for X. If you are interested in becoming a mentor, please fill out our interest form below and we will reach out to you with more details!"
+      subtitle="We're always looking for committed individuals who believe in empowering young people. A great way to get involved with Destined for X is to volunteer to be a mentor. We are looking for early- to mid-career professionals to serve as mentors to our students to advise them in their high school/college careers. Being a mentor is a high-impact, low-time commitment opportunity (~2 hours/month) and a great way to support the mission of Destined for X. If you are interested in becoming a mentor, please fill out our interest form below and we will reach out to you with more details!"
       buttonText="Apply now"
       buttonColor="primary"
       buttonOnClick={() => {
