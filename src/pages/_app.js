@@ -10,6 +10,7 @@ import TestimonialsPage from "./testimonials";
 import ApplyPage from "./apply";
 import TeamPage from "./team";
 import VolunteerPage from "./volunteer";
+import BlogPage from "./blog";
 import DonatePage from "./donate";
 import FaqPage from "./faq";
 import AuthTypePage from "./authtype";
@@ -17,7 +18,7 @@ import { Switch, Route, Router } from "./../util/router.js";
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
-import D4XIcon from "../assets/D4XIcon.png"
+import D4XIcon from "../assets/D4XIcon.png";
 
 function App(props) {
   return (
@@ -36,15 +37,25 @@ function App(props) {
 
             <Route exact path="/about" component={AboutPage} />
 
-            <Route exact path="/virtual-program" component={VirtualProgramPage} />
+            <Route
+              exact
+              path="/virtual-program"
+              component={VirtualProgramPage}
+            />
 
-            <Route exact path="/mentorship-program" component={MentorshipProgramPage}/>
+            <Route
+              exact
+              path="/mentorship-program"
+              component={MentorshipProgramPage}
+            />
 
-            <Route exact path="/miami-program" component={MiamiProgramPage}/>
- 
+            <Route exact path="/miami-program" component={MiamiProgramPage} />
+
             <Route exact path="/testimonials" component={TestimonialsPage} />
 
             <Route exact path="/apply" component={ApplyPage} />
+
+            <Route exact path="/blog" component={BlogPage} />
 
             <Route exact path="/team" component={TeamPage} />
 
