@@ -16,7 +16,7 @@ const Client = Prismic.client(apiEndpoint);
 const formatDate = (date) => Moment(date).format("LL");
 
 function BlogPage(props) {
-  const [docs, setDocsData] = useState(null);
+  const [articles, setArticles] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,7 +24,7 @@ function BlogPage(props) {
         Prismic.Predicates.at("document.type", "article")
       );
       if (response) {
-        setDocsData(response.results);
+        setArticles(response.results);
         console.log(response.results);
       }
     };
@@ -36,25 +36,32 @@ function BlogPage(props) {
       <HeroSection2
         bg="secondary"
         textColor="white"
-        size="lg"
+        size="md"
         bgImage=""
         bgImageOpacity={1}
         title="Blog"
-        subtitle="Welcome to our Blog"
+        subtitle="Welcome to the Destined for X Blog"
       ></HeroSection2>
-      {docs &&
-        docs.map((doc) => (
-          <Section key={doc.id}>
+      {articles &&
+        articles.map((article) => (
+          <Section key={article.id}>
             <Container className="text-center">
               <SectionHeader
-                title={RichText.asText(doc.data.title)}
-                subtitle={formatDate(Date(doc.data.timestamp).toString())}
+                title={RichText.asText(article.data.title)}
+                subtitle={formatDate(Date(article.data.timestamp).toString())}
                 size={2}
               />
+              {article.data.primary_image.url && (
+                <img
+                  src={article.data.primary_image.url}
+                  alt={article.data.alt}
+                  style={{ width: "65vw" }}
+                />
+              )}
             </Container>
             <br></br>
             <Container className="text-left">
-              <RichText render={doc.data.body} />
+              <RichText render={article.data.body} />
             </Container>
           </Section>
         ))}
