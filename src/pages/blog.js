@@ -13,10 +13,10 @@ const apiEndpoint = "https://destinedforx.cdn.prismic.io/api/v2";
 
 const Client = Prismic.client(apiEndpoint);
 
+const formatDate = (date) => Moment(date).format("LL");
+
 function BlogPage(props) {
   const [docs, setDocsData] = useState(null);
-
-  const formatDate = (date) => Moment(date).format("LL");
 
   useEffect(() => {
     const fetchData = async () => {
