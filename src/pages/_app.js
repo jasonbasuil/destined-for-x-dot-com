@@ -10,7 +10,7 @@ import TestimonialsPage from "./testimonials";
 import ApplyPage from "./apply";
 import TeamPage from "./team";
 import VolunteerPage from "./volunteer";
-import BlogPage from "./blog";
+// import BlogPage from "./blog";
 import DonatePage from "./donate";
 import FaqPage from "./faq";
 import AuthTypePage from "./authtype";
