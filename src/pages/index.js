@@ -31,7 +31,6 @@ function IndexPage(props) {
         buttonColor="primary"
         image="https://res.cloudinary.com/dwgvb9rdh/image/upload/c_scale,q_auto,w_800/v1587758853/IMG_1757_up6rnu.jpg"
         buttonOnClick={() => {
-          // Navigate to pricing page
           router.push("/virtual-program");
         }}
       ></HeroSection>
