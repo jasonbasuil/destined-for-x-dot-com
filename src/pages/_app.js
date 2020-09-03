@@ -55,7 +55,7 @@ function App(props) {
 
             <Route exact path="/apply" component={ApplyPage} />
 
-            <Route exact path="/blog" component={BlogPage} />
+            {/* <Route exact path="/blog" component={BlogPage} /> */}
 
             <Route exact path="/team" component={TeamPage} />
 
