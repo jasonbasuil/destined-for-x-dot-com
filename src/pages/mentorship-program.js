@@ -1,13 +1,12 @@
 import React from "react";
 import HeroSection2 from "../components/HeroSection2";
 import FeaturesSection3 from "../components/FeaturesSection3";
-import CtaSection2 from "../components/CtaSection2";
+import CtaSection from "../components/CtaSection";
 import FacebookTour from "../assets/events/FacebookTour.JPG";
 import TestimonialsSection2 from "../components/TestimonialsSection2";
 import FaqSection2 from "../components/FaqSection2";
 
 function MentorshipProgramPage(props) {
-
   return (
     <>
       <HeroSection2
@@ -45,34 +44,14 @@ function MentorshipProgramPage(props) {
         title="Frequently Asked Questions"
         subtitle=""
       ></FaqSection2>
-      <CtaSection2
+      <CtaSection
         bg="dark"
         textColor="white"
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Mentee Application Form"
-        subtitle=""
-        buttonText="Apply"
-        buttonColor="primary"
-        buttonOnClick={() => {
-          window.open("https://docs.google.com/forms/d/e/1FAIpQLSd15C00Gl3iXbnRyrgn2bO2vSnbj8jCXRM6guqxAq-RHaDIlQ/viewform");
-        }}
-      ></CtaSection2>
-      <CtaSection2
-        bg="secondary"
-        textColor="white"
-        size="sm"
-        bgImage=""
-        bgImageOpacity={1}
-        title="Mentor Application Form"
-        subtitle=""
-        buttonText="Apply"
-        buttonColor="primary"
-        buttonOnClick={() => {
-          window.open("https://docs.google.com/forms/d/e/1FAIpQLSeFRXYntnxjSN-5a5iQ5FNJCypxsWoQZyYdzmcv67qCuVr4aw/viewform");
-        }}
-      ></CtaSection2>
+        title="Applications have closed for the 2020 Mentorship Program."
+      ></CtaSection>
     </>
   );
 }
