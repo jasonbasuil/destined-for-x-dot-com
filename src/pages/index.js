@@ -41,9 +41,8 @@ function IndexPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="About our programs"
-        subtitle="Destined for X hosts two programs:
-        a week-long, all-expenses paid summer program in Silicon Valley where students visit top tech companies and network with industry professionals; and 
-        a mentorship program that pairs students with an industry mentor who guides them on their professional endeavors."
+        subtitle="Destined for X hosts three programs:
+        a week-long, all-expenses paid immersive summer program in Silicon Valley where students visit top tech companies and network with industry professionals; an online virtual program that covers the same topics as our immersive program; and a mentorship program that pairs students with an industry mentor who guides them on their professional endeavors."
       ></FeaturesSection>
       <ClientsSection
         bg="white"
