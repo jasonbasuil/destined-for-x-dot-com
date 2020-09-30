@@ -3,14 +3,13 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import TeamBios from "./TeamBios";
-import Josh from "../assets/team/Josh.jpg"
-import Jason from "../assets/team/Jason.jpg"
-import Alejandro from "../assets/team/Alejandro.jpg"
-import Alex from "../assets/team/Alex.png"
-import Stacey from "../assets/team/Stacey.jpg"
-import Emily from "../assets/team/Emily.jpg"
-import Sam from "../assets/team/Sam.png"
-import Nina from "../assets/team/Nina.png"
+import Josh from "../assets/team/Josh.jpg";
+import Jason from "../assets/team/Jason.jpg";
+import Alejandro from "../assets/team/Alejandro.jpg";
+import Alex from "../assets/team/Alex.png";
+import Stacey from "../assets/team/Stacey.jpg";
+import Emily from "../assets/team/Emily.jpg";
+import Sam from "../assets/team/Sam.png";
 
 function TeamBiosSection(props) {
   return (
@@ -44,9 +43,9 @@ function TeamBiosSection(props) {
             {
               avatar: Jason,
               name: "Jason Basuil",
-              role: "Co-founder & Director of Product / Curriculum",
+              role: "Co-founder & Program Director",
               bio:
-                "Jason Basuil graduated from Seattle University, where he studied Biology and Psychology, but currently works as a Front End Engineer after attending a coding bootcamp. He's been actively involved with The LEAP Foundation as a leadership coach and has a passion for helping others become their best selves.",
+                "Jason Basuil graduated from Seattle University with a B.A. in Biology. With the original intention of heading to dental school, he pivoted in his last year of college to pursue a career in tech. He started working as a product specialist at a retail startup in Seattle, but soon realized he wanted to gain more technical expertise. Jason now works as a Software Engineer specializing in frontend technologies. His message to students is that it's never too late to make a change!",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
@@ -97,16 +96,6 @@ function TeamBiosSection(props) {
               role: "",
               bio:
                 "Säm graduated from the University of San Diego, where he studied International Business and Strategic Communications. While his professional interests are around strategy and operations, he enjoys and takes pride in supporting various social justice efforts. In his free time, you can find Säm cooking, weight lifting, reading, and observing abstract art.",
-              twitterUrl: "https://twitter.com",
-              facebookUrl: "https://facebook.com",
-              linkedinUrl: "https://linkedin.com",
-            },
-            {
-              avatar: Nina,
-              name: "Nina Gibbs",
-              role: "",
-              bio:
-                "Nina Gibbs is a Stanford graduate from the Product Design program and works in healthcare tech as a UX Designer. She is so excited to help create a great experience for everyone in Destined for X because she believes the program is a unique opportunity for students to learn how to ask for directions in a large city of professional career paths and prototype future possible versions of themselves. She can’t wait to meet all of the attendees and help them navigate their future!",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
