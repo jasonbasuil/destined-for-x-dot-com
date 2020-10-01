@@ -19,6 +19,7 @@ import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
 import D4XIcon from "../assets/D4XIcon.png";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function App(props) {
   return (
@@ -31,7 +32,10 @@ function App(props) {
             expand="md"
             logo="//static1.squarespace.com/static/587dade6b3db2bee3e358563/t/5e2a80faa14fd526ec94b4d8/1584500907855/?format=1500w"
           ></NavbarCustom>
-
+          <MessengerCustomerChat
+            pageId="669786999881921"
+            appId="768352100668005"
+          />
           <Switch>
             <Route exact path="/" component={IndexPage} />
 
