@@ -35,6 +35,8 @@ function App(props) {
           <MessengerCustomerChat
             pageId="669786999881921"
             appId="768352100668005"
+            themeColor="#366ba7"
+            greetingDialogDisplay="Hi! How can we help you?"
           />
           <Switch>
             <Route exact path="/" component={IndexPage} />
