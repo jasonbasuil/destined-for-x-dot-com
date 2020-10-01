@@ -41,39 +41,26 @@ function App(props) {
           />
           <Switch>
             <Route exact path="/" component={IndexPage} />
-
             <Route exact path="/about" component={AboutPage} />
-
             <Route
               exact
               path="/virtual-program"
               component={VirtualProgramPage}
             />
-
             <Route
               exact
               path="/mentorship-program"
               component={MentorshipProgramPage}
             />
-
             <Route exact path="/miami-program" component={MiamiProgramPage} />
-
             <Route exact path="/testimonials" component={TestimonialsPage} />
-
             <Route exact path="/apply" component={ApplyPage} />
-
             {/* <Route exact path="/blog" component={BlogPage} /> */}
-
             <Route exact path="/team" component={TeamPage} />
-
             <Route exact path="/volunteer" component={VolunteerPage} />
-
             <Route exact path="/donate" component={DonatePage} />
-
             <Route exact path="/faq" component={FaqPage} />
-
             <Route exact path="/auth/:type" component={AuthTypePage} />
-
             <Route
               component={({ location }) => {
                 return (
@@ -91,7 +78,6 @@ function App(props) {
               }}
             />
           </Switch>
-
           <Footer
             bg="light"
             textColor="dark"
