@@ -30,9 +30,9 @@ _Note: You can run just the front-end with `npm run start`, but `netlify dev` al
 This project uses the following libraries and services:
 - Framework - [Create React App](https://create-react-app.dev) with React Router
 - Styling - [Bootstrap](https://getbootstrap.com) with custom SASS styles
-- Authentication - [Firebase Auth](https://firebase.google.com/products/auth)
-- Newsletter - [Mailchimp](https://mailchimp.com)
-- Analytics - [Google Analytics](https://googleanalytics.com)
+- Authentication - [Firebase Auth](https://firebase.google.com/products/auth) (WIP)
+- Newsletter - [Mailchimp](https://mailchimp.com) (WIP)
+- Analytics - [Google Analytics](https://googleanalytics.com) (WIP)
 - Hosting - [Netlify](https://netlify.com)
 
 
