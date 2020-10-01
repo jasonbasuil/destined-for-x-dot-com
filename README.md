@@ -1,12 +1,18 @@
-## 👉 Get Started
+## Welcome
+This is the public repo for the Destined for X website. It launched in April 2020 as an initiative to move away from alternative website providers and have more creative control over functionality as we grow. We're always looking for people who are interested in helping us grow. Check out our ongoing Projects and reach out to us if you'd like to contribute!
+
+## About Destined for X
+Our mission is to empower underreprented students to confidently craft a fulfilling future. 
+
+We were founded in 2017 here in the San Francisco, Bay Area by a few motivated early career professionals who were looking to give back to students and teach them the tools that are necessary for personal success. What started off as a fun, immersive, week-long program every summer has turned into a movement and year-round community of motivated individuals looking to improve their lives through experiential learning and mentorship.
+
+### Destined for X 2019 Class at Stanford University
+![Destined for X 2019 Class at Stanford University](https://res.cloudinary.com/dwgvb9rdh/image/upload/c_scale,w_919/v1601585387/69467973_10221088037697044_5505520613109792768_o_m4pjkg.jpg)
+
+## 👉 Get Started 
 Install dependencies
 ```
 npm install
-```
-Update your `.env` file with values for each environment variable
-```
-API_KEY=AIzaSyBkkFF0XhNZeWuDmOfEhsgdfX1VBG7WTas
-etc ...
 ```
 Install the Netlify CLI
 ```
@@ -127,6 +133,6 @@ See the <a target="_blank" href="https://docs.netlify.com/cli/get-started/#manua
   <summary><b>Other</b></summary>
   <p>
     The <a href="https://create-react-app.dev">Create React App documention</a> covers many other topics.
-    This project was initially created using <a href="https://divjoy.com?ref=readme_other">Divjoy</a>, a React codebase generator. Feel free to ask questions in the <a href="https://spectrum.chat/divjoy">Divjoy forum</a> and we'll do our best to help you out.
+    This project was initially created using <a href="https://divjoy.com?ref=readme_other">Divjoy</a>, a React codebase generator. 
   </p>
 </details>
