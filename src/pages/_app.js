@@ -37,7 +37,8 @@ function App(props) {
             appId="768352100668005"
             themeColor="#366ba7"
             loggedInGreeting="Hi! Have a question? We're here to help."
-            greetingDialogDisplay="fade"
+            greetingDialogDisplay="show"
+            greetingDialogDelay={5}
           />
           <Switch>
             <Route exact path="/" component={IndexPage} />
