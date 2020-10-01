@@ -36,6 +36,8 @@ function App(props) {
             pageId="669786999881921"
             appId="768352100668005"
             themeColor="#366ba7"
+            loggedInGreeting="Hi! Have a question? We're here to help."
+            greetingDialogDisplay="hide"
           />
           <Switch>
             <Route exact path="/" component={IndexPage} />
