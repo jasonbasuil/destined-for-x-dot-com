@@ -11,6 +11,7 @@ import Stacey from "../assets/team/Stacey.jpg";
 import Emily from "../assets/team/Emily.jpg";
 import Sam from "../assets/team/Sam.png";
 import Mel from "../assets/team/Mel.jpeg";
+import Meer from "../assets/team/Meer.jpg";
 
 function TeamBiosSection(props) {
   return (
@@ -86,6 +87,13 @@ function TeamBiosSection(props) {
               role: "",
               bio:
                 "Melissa Demma graduated from the University of Southern California where she studied Business and Entrepreneurship. She currently works in early-stage venture capital in San Francisco. Melissa loves to travel, read, and try new restaurants in her free time. ",
+            },
+            {
+              avatar: Meer,
+              name: "Meer",
+              role: "",
+              bio:
+                "Meer works as a Software Developer with an R & D team at an energy company. He graduated from the University of Regina with a B.Sc. in Computer Science. He is interested in meaningful and purpose-driven work that makes a positive impact. Meer is passionate about empowering others to be their best. He is a fitness enthusiast and loves reading, listening to audiobooks/podcasts, travelling, and learning new things in his spare time.",
             },
           ]}
         ></TeamBios>
