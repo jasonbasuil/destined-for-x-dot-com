@@ -90,7 +90,7 @@ function TeamBiosSection(props) {
             },
             {
               avatar: Meer,
-              name: "Meer",
+              name: "Md A. K. Siddique Meer",
               role: "",
               bio:
                 "Meer works as a Software Developer with an R & D team at an energy company. He graduated from the University of Regina with a B.Sc. in Computer Science. He is interested in meaningful and purpose-driven work that makes a positive impact. Meer is passionate about empowering others to be their best. He is a fitness enthusiast and loves reading, listening to audiobooks/podcasts, travelling, and learning new things in his spare time.",
