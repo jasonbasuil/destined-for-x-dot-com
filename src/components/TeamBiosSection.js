@@ -12,6 +12,7 @@ import Emily from "../assets/team/Emily.jpg";
 import Sam from "../assets/team/Sam.png";
 import Mel from "../assets/team/Mel.jpeg";
 import Meer from "../assets/team/Meer.jpg";
+import Ruben from "../assets/team/Ruben.jpg";
 
 function TeamBiosSection(props) {
   return (
@@ -94,6 +95,13 @@ function TeamBiosSection(props) {
               role: "",
               bio:
                 "Meer works as a Software Developer with an R & D team at an energy company. He graduated from the University of Regina with a B.Sc. in Computer Science. He is interested in meaningful and purpose-driven work that makes a positive impact. Meer is passionate about empowering others to be their best. He is a fitness enthusiast and loves reading, listening to audiobooks/podcasts, travelling, and learning new things in his spare time.",
+            },
+            {
+              avatar: Ruben,
+              name: "Ruben Gomez",
+              role: "",
+              bio:
+                "Ruben Gomez graduated from California State University, Long Beach with a degree in B.S. Business Administration and an emphasis in Recommender Systems. He is passionate about solving for climate change, humanitarian aid, and serving underserved people. He is currently a researcher at Twitter focused on health. When he’s not working he enjoys traveling abroad, reading, cooking and exercising.",
             },
           ]}
         ></TeamBios>
