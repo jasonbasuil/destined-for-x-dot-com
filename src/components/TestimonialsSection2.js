@@ -45,6 +45,13 @@ function TestimonialsSection2(props) {
                 "In response to the personal growth seen in my mentee: 1) Increased confidence in the face of unknown outcomes when applying to internships and 2) An even greater willingness to collaborate with strangers, particularly in the context of hackathons.",
               company: "Mentor to Hein San",
             },
+            {
+              avatar: undraw_profile_pic,
+              name: "Lauren Chen",
+              testimonial:
+                "Destined for X is the perfect mentorship program structured to prompt insightful discussion. I was blown away by my mentee’s passion and talent. The time commitment is feasible and the check-ins help hold everyone accountable. It’s a two way street and I’ve learned a lot from my mentee. A lot of thought went into the mentor/mentee pairing which makes discussion flow seamlessly. I’m at a stage in my career where I’ve been through most of the things my mentee is going through.",
+              company: "2020 Mentor",
+            },
           ]}
         ></Testimonials2>
       </Container>
