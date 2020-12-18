@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "./../components/HeroSection";
-import FeaturesSection from "../components/index/FeaturesSection";
+import FeaturesSection from "../components/FeaturesSection";
 import ClientsSection from "./../components/ClientsSection";
 import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";

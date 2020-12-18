@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "../Section";
+import Section from "./Section";
 import Container from "react-bootstrap/Container";
-import SectionHeader from "../SectionHeader";
-import Features from "../Features";
+import SectionHeader from "./SectionHeader";
+import Features from "./Features";
 
 function FeaturesSection(props) {
   return (
