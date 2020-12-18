@@ -32,6 +32,12 @@ Run the development server
 netlify dev
 ```
 
+Run prettier
+
+```
+yarn prettier
+```
+
 When the above command completes you'll be able to view your website at `http://localhost:8888`
 
 _Note: You can run just the front-end with `npm run start`, but `netlify dev` also handles running your API endpoints (located in the `/api` directory)._
