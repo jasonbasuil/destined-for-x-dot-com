@@ -3,11 +3,11 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Clients from "./Clients";
-import FacebookLogo from "../assets/FacebookLogo.jpg"
-import GoogleLogo from "../assets/GoogleLogo.jpg"
-import MicrosoftLogo from "../assets/MicrosoftLogo.png"
+import FacebookLogo from "../assets/FacebookLogo.jpg";
+import GoogleLogo from "../assets/GoogleLogo.jpg";
+import MicrosoftLogo from "../assets/MicrosoftLogo.png";
 import LyftLogo from "../assets/LyftLogo.png";
-import AppleLogo from "../assets/AppleLogo.png"
+import AppleLogo from "../assets/AppleLogo.png";
 
 function ClientsSection(props) {
   return (
@@ -40,7 +40,7 @@ function ClientsSection(props) {
             {
               name: "Apple",
               image: AppleLogo,
-              width: "50px"
+              width: "50px",
             },
             {
               name: "Microsoft",

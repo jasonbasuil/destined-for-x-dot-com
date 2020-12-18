@@ -172,10 +172,7 @@
                       "type": "element",
                       "tagName": "img",
                       "attributes": "{\n  src: props.logo,\n  alt: \"Logo\",\n  height: \"30\"\n}",
-                      "classNames": [
-                        "d-inline-block",
-                        "align-top"
-                      ],
+                      "classNames": ["d-inline-block", "align-top"],
                       "id": 2786374,
                       "isVisible": true,
                       "image": "",
@@ -835,9 +832,7 @@
         }
       ],
       "id": 7907106,
-      "tags": [
-        "Navigation"
-      ],
+      "tags": ["Navigation"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -1326,9 +1321,7 @@
           "classNameExpressions": [
             {
               "js": "props.className",
-              "classNames": [
-                "{props.className}"
-              ]
+              "classNames": ["{props.className}"]
             }
           ],
           "style": "// Add bottom margin if element below\n&:not(:last-child){\n\tmargin-bottom: 2rem;\n}",
@@ -1351,27 +1344,19 @@
                     }
                   ],
                   "id": 68747,
-                  "classNames": [
-                    "font-weight-bold"
-                  ],
+                  "classNames": ["font-weight-bold"],
                   "classNameExpressions": [
                     {
                       "js": "props.subtitle && props.spaced",
-                      "classNames": [
-                        "mb-4"
-                      ]
+                      "classNames": ["mb-4"]
                     },
                     {
                       "js": "!props.subtitle",
-                      "classNames": [
-                        "mb-0"
-                      ]
+                      "classNames": ["mb-0"]
                     },
                     {
                       "js": "props.size",
-                      "classNames": [
-                        "h{props.size}"
-                      ]
+                      "classNames": ["h{props.size}"]
                     }
                   ],
                   "name": "Title",
@@ -1404,9 +1389,7 @@
                   ],
                   "name": "Subtitle",
                   "style": "// Subtitle text generally isn't very long\n// so usually looks better to limit width.\nmax-width: 700px;\n// So we can have max-width but still\n// have alignment controlled by text-align.\ndisplay: inline-block;",
-                  "classNames": [
-                    "mb-0"
-                  ],
+                  "classNames": ["mb-0"],
                   "isVisible": true,
                   "attributes": "{\n\n}",
                   "image": "",
@@ -1444,28 +1427,19 @@
           "tagName": "section",
           "id": 6386747,
           "attributes": "{\n\t...otherProps\n}",
-          "classNames": [
-            "py-5",
-            "position-relative"
-          ],
+          "classNames": ["py-5", "position-relative"],
           "classNameExpressions": [
             {
               "js": "props.bg",
-              "classNames": [
-                "bg-{props.bg}"
-              ]
+              "classNames": ["bg-{props.bg}"]
             },
             {
               "js": "props.textColor",
-              "classNames": [
-                "text-{props.textColor}"
-              ]
+              "classNames": ["text-{props.textColor}"]
             },
             {
               "js": "className",
-              "classNames": [
-                "{className}"
-              ]
+              "classNames": ["{className}"]
             }
           ],
           "style": "// Ensure container is above bgImage\n.container {\n  position: relative;\n}\n\n// Add light border if two white\n// sections next to each other.\n.bg-white + &.bg-white {\n  border-top: 1px solid #F0F0F0;\n}",
@@ -1521,15 +1495,11 @@
               "classNameExpressions": [
                 {
                   "js": "[\"md\", \"lg\"].includes(props.size)",
-                  "classNames": [
-                    "py-md-5"
-                  ]
+                  "classNames": ["py-md-5"]
                 },
                 {
                   "js": "props.size === \"lg\"",
-                  "classNames": [
-                    "my-md-5"
-                  ]
+                  "classNames": ["my-md-5"]
                 }
               ],
               "isVisible": true,
@@ -1578,9 +1548,7 @@
           "classNameExpressions": [
             {
               "js": "props.repeat",
-              "classNames": [
-                "repeat"
-              ]
+              "classNames": ["repeat"]
             }
           ],
           "isVisible": true,
@@ -1794,9 +1762,7 @@
                           "type": "element",
                           "tagName": "figure",
                           "id": 2537181,
-                          "classNames": [
-                            "mx-auto"
-                          ],
+                          "classNames": ["mx-auto"],
                           "style": "max-width: 570px;",
                           "children": [
                             {
@@ -1893,10 +1859,7 @@
         }
       ],
       "id": 1952882,
-      "tags": [
-        "Hero",
-        "Popular"
-      ],
+      "tags": ["Hero", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -2019,10 +1982,7 @@
         }
       ],
       "id": 2115492,
-      "tags": [
-        "Features",
-        "Popular"
-      ],
+      "tags": ["Features", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -2430,10 +2390,7 @@
         }
       ],
       "id": 446637,
-      "tags": [
-        "Testimonials",
-        "Popular"
-      ],
+      "tags": ["Testimonials", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -2856,10 +2813,7 @@
         }
       ],
       "id": 6266495,
-      "tags": [
-        "Newsletter",
-        "Popular"
-      ],
+      "tags": ["Newsletter", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -3144,10 +3098,7 @@
                     {
                       "type": "element",
                       "tagName": "div",
-                      "classNames": [
-                        "brand",
-                        "left"
-                      ],
+                      "classNames": ["brand", "left"],
                       "children": [
                         {
                           "type": "element",
@@ -3211,10 +3162,7 @@
                     {
                       "type": "element",
                       "tagName": "div",
-                      "classNames": [
-                        "links",
-                        "right"
-                      ],
+                      "classNames": ["links", "right"],
                       "children": [
                         {
                           "type": "element",
@@ -3473,10 +3421,7 @@
                     {
                       "type": "element",
                       "tagName": "div",
-                      "classNames": [
-                        "social",
-                        "right"
-                      ],
+                      "classNames": ["social", "right"],
                       "children": [
                         {
                           "type": "element",
@@ -3485,17 +3430,12 @@
                             {
                               "type": "element",
                               "tagName": "span",
-                              "classNames": [
-                                "icon"
-                              ],
+                              "classNames": ["icon"],
                               "children": [
                                 {
                                   "type": "element",
                                   "tagName": "i",
-                                  "classNames": [
-                                    "fab",
-                                    "fa-twitter"
-                                  ],
+                                  "classNames": ["fab", "fa-twitter"],
                                   "id": 7564851,
                                   "isVisible": true,
                                   "attributes": "{\n\n}",
@@ -3553,17 +3493,12 @@
                             {
                               "type": "element",
                               "tagName": "span",
-                              "classNames": [
-                                "icon"
-                              ],
+                              "classNames": ["icon"],
                               "children": [
                                 {
                                   "type": "element",
                                   "tagName": "i",
-                                  "classNames": [
-                                    "fab",
-                                    "fa-facebook-f"
-                                  ],
+                                  "classNames": ["fab", "fa-facebook-f"],
                                   "id": 9154533,
                                   "isVisible": true,
                                   "attributes": "{\n\n}",
@@ -3621,17 +3556,12 @@
                             {
                               "type": "element",
                               "tagName": "span",
-                              "classNames": [
-                                "icon"
-                              ],
+                              "classNames": ["icon"],
                               "children": [
                                 {
                                   "type": "element",
                                   "tagName": "i",
-                                  "classNames": [
-                                    "fab",
-                                    "fa-instagram"
-                                  ],
+                                  "classNames": ["fab", "fa-instagram"],
                                   "id": 8307317,
                                   "isVisible": true,
                                   "attributes": "{\n\n}",
@@ -3695,10 +3625,7 @@
                     {
                       "type": "element",
                       "tagName": "div",
-                      "classNames": [
-                        "copyright",
-                        "left"
-                      ],
+                      "classNames": ["copyright", "left"],
                       "children": [
                         {
                           "type": "text",
@@ -3768,10 +3695,7 @@
           ]
         }
       ],
-      "tags": [
-        "Footer",
-        "Popular"
-      ],
+      "tags": ["Footer", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -3943,10 +3867,7 @@
         }
       ],
       "id": 4704983,
-      "tags": [
-        "Hero",
-        "Content"
-      ],
+      "tags": ["Hero", "Content"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -4550,9 +4471,7 @@
                           "type": "element",
                           "tagName": "span",
                           "id": 971288,
-                          "classNames": [
-                            "sr-only"
-                          ],
+                          "classNames": ["sr-only"],
                           "children": [
                             {
                               "type": "text",
@@ -4672,10 +4591,7 @@
         {
           "type": "element",
           "tagName": "div",
-          "classNames": [
-            "text-center",
-            "mt-4"
-          ],
+          "classNames": ["text-center", "mt-4"],
           "children": [
             {
               "type": "if",
@@ -4914,9 +4830,7 @@
                           "type": "element",
                           "tagName": "span",
                           "id": 3326460,
-                          "classNames": [
-                            "sr-only"
-                          ],
+                          "classNames": ["sr-only"],
                           "children": [
                             {
                               "type": "text",
@@ -5179,11 +5093,7 @@
                   "type": "element",
                   "tagName": "small",
                   "id": 1355012,
-                  "classNames": [
-                    "text-center",
-                    "d-block",
-                    "my-3"
-                  ],
+                  "classNames": ["text-center", "d-block", "my-3"],
                   "children": [
                     {
                       "type": "text",
@@ -5443,9 +5353,7 @@
         }
       ],
       "code": "\t// Values for each auth type\n\tconst allTypeValues = {\n    signin: {\n      // Top title\n      title: \"Welcome back\",\n      // Submit button text\n      buttonText: \"Sign in\",\n      // Link text to other auth types\n      linkTextSignup: \"Create an account\",\n      linkTextForgotpass: \"Forgot Password?\"\n    },\n    signup: {\n      title: \"Get yourself an account\",\n      buttonText: \"Sign up\",\n      linkTextSignin: \"Sign in\"\n    },\n    forgotpass: {\n      title: \"Get a new password\",\n      buttonText: \"Reset password\"\n    },\n    changepass: {\n      title: \"Choose a new password\",\n      buttonText: \"Change password\"\n    },\n  };\n\t\n\t// Ensure we have a valid auth type\n\tconst currentType = allTypeValues[props.type] \n  \t\t\t\t\t\t\t\t\t\t\t? props.type \n  \t\t\t\t\t\t\t\t\t\t\t: 'signup';\n\n\t// Get values for current auth type\n\tconst typeValues = allTypeValues[currentType];\n  ",
-      "tags": [
-        "Authentication"
-      ],
+      "tags": ["Authentication"],
       "id": 8572886,
       "isVisible": true,
       "nameLibrary": "",
@@ -5628,9 +5536,7 @@
         }
       ],
       "id": 938751,
-      "tags": [
-        "Call to Action"
-      ],
+      "tags": ["Call to Action"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -5754,10 +5660,7 @@
         }
       ],
       "id": 6610050,
-      "tags": [
-        "Clients",
-        "Popular"
-      ],
+      "tags": ["Clients", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -5831,9 +5734,7 @@
                       ],
                       "name": "Logo",
                       "id": 1991079,
-                      "classNames": [
-                        "align-bottom"
-                      ],
+                      "classNames": ["align-bottom"],
                       "isVisible": true,
                       "attributes": "{\n\n}",
                       "image": "",
@@ -6899,9 +6800,7 @@
                     {
                       "type": "element",
                       "tagName": "div",
-                      "classNames": [
-                        "has-text-centered"
-                      ],
+                      "classNames": ["has-text-centered"],
                       "style": "padding: 56px;",
                       "children": [
                         {
@@ -7211,10 +7110,7 @@
         }
       ],
       "id": 8056089,
-      "tags": [
-        "Features",
-        "Popular"
-      ],
+      "tags": ["Features", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -7501,9 +7397,7 @@
         }
       ],
       "id": 1860887,
-      "tags": [
-        "Call to Action"
-      ],
+      "tags": ["Call to Action"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -7547,9 +7441,7 @@
                           "type": "element",
                           "tagName": "figure",
                           "id": 9619451,
-                          "classNames": [
-                            "mx-auto"
-                          ],
+                          "classNames": ["mx-auto"],
                           "style": "max-width: 570px;",
                           "children": [
                             {
@@ -7686,10 +7578,7 @@
         }
       ],
       "id": 2628398,
-      "tags": [
-        "Features",
-        "Popular"
-      ],
+      "tags": ["Features", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -7737,9 +7626,7 @@
                           "type": "element",
                           "tagName": "i",
                           "id": 4030736,
-                          "classNames": [
-                            "{item.iconClass}"
-                          ],
+                          "classNames": ["{item.iconClass}"],
                           "isVisible": true,
                           "attributes": "{\n\n}",
                           "image": "",
@@ -7979,10 +7866,7 @@
         }
       ],
       "id": 7166127,
-      "tags": [
-        "Team",
-        "Popular"
-      ],
+      "tags": ["Team", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -8288,10 +8172,7 @@
         }
       ],
       "id": 2888437,
-      "tags": [
-        "Stats",
-        "Popular"
-      ],
+      "tags": ["Stats", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -8331,9 +8212,7 @@
                         {
                           "type": "element",
                           "tagName": "small",
-                          "classNames": [
-                            "text-uppercase"
-                          ],
+                          "classNames": ["text-uppercase"],
                           "children": [
                             {
                               "type": "text",
@@ -8365,9 +8244,7 @@
                             }
                           ],
                           "id": 3862706,
-                          "classNames": [
-                            "mt-2"
-                          ],
+                          "classNames": ["mt-2"],
                           "isVisible": true,
                           "attributes": "{\n\n}",
                           "image": "",
@@ -8517,9 +8394,7 @@
         }
       ],
       "id": 8050012,
-      "tags": [
-        "Features"
-      ],
+      "tags": ["Features"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",
@@ -8569,9 +8444,7 @@
                               "type": "element",
                               "tagName": "i",
                               "id": 7512261,
-                              "classNames": [
-                                "{item.iconClass}"
-                              ],
+                              "classNames": ["{item.iconClass}"],
                               "isVisible": true,
                               "attributes": "{\n\n}",
                               "image": "",
@@ -8594,9 +8467,7 @@
                         {
                           "type": "element",
                           "tagName": "h4",
-                          "classNames": [
-                            "mb-4"
-                          ],
+                          "classNames": ["mb-4"],
                           "children": [
                             {
                               "type": "text",
@@ -8640,9 +8511,7 @@
                       ],
                       "name": "Feature",
                       "id": 1499376,
-                      "classNames": [
-                        "py-3"
-                      ],
+                      "classNames": ["py-3"],
                       "isVisible": true,
                       "attributes": "{\n\n}",
                       "image": "",
@@ -8779,29 +8648,20 @@
                 {
                   "type": "element",
                   "tagName": "span",
-                  "classNames": [
-                    "text-primary",
-                    "mr-3"
-                  ],
+                  "classNames": ["text-primary", "mr-3"],
                   "children": [
                     {
                       "type": "element",
                       "tagName": "i",
-                      "classNames": [
-                        "fas"
-                      ],
+                      "classNames": ["fas"],
                       "classNameExpressions": [
                         {
                           "js": "expanded",
-                          "classNames": [
-                            "fa-minus"
-                          ]
+                          "classNames": ["fa-minus"]
                         },
                         {
                           "js": "!expanded",
-                          "classNames": [
-                            "fa-plus"
-                          ]
+                          "classNames": ["fa-plus"]
                         }
                       ],
                       "id": 6440995,
@@ -8848,9 +8708,7 @@
                 {
                   "type": "element",
                   "tagName": "div",
-                  "classNames": [
-                    "mt-3"
-                  ],
+                  "classNames": ["mt-3"],
                   "children": [
                     {
                       "type": "text",
@@ -8875,9 +8733,7 @@
             }
           ],
           "id": 8652269,
-          "classNames": [
-            "py-4"
-          ],
+          "classNames": ["py-4"],
           "isVisible": true,
           "image": "",
           "name": "",
@@ -9014,10 +8870,7 @@
         }
       ],
       "id": 3246815,
-      "tags": [
-        "FAQ",
-        "Popular"
-      ],
+      "tags": ["FAQ", "Popular"],
       "isVisible": true,
       "nameLibrary": "",
       "description": "",

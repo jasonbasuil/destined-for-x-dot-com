@@ -3,10 +3,10 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Speakers from "./Speakers";
-import AliceLiu from "../assets/speakers/AliceLiu.jpeg"
-import SabeehaIslam from "../assets/speakers/SabeehaIslam.jpg"
-import MaddyRueda from "../assets/speakers/MaddyRueda.jpg"
-import ChristianColy from "../assets/speakers/ChristianColy.png"
+import AliceLiu from "../assets/speakers/AliceLiu.jpeg";
+import SabeehaIslam from "../assets/speakers/SabeehaIslam.jpg";
+import MaddyRueda from "../assets/speakers/MaddyRueda.jpg";
+import ChristianColy from "../assets/speakers/ChristianColy.png";
 import AndresMarquez from "../assets/speakers/AndresMarquez.png";
 import PriyaGanesan from "../assets/speakers/PriyaGanesan.png";
 import MichelleTanaka from "../assets/speakers/MichelleTanaka.png";
@@ -50,7 +50,8 @@ function SpeakersSection(props) {
               name: "Christian Coly",
               bio:
                 "Christian joined Facebook two years ago, as an Account Manager in Facebook’s Retail Sales team. Before joining Facebook, Christian worked for Parrot, a global company headquartered in Paris (France) specialized in building consumer and commercial drones. At Parrot, Christian had the opportunity to learn about the consumer electronics business in Europe and North America (specifically Business development, Sales, Product Management and Trainer). Christian was born in Dakar, Senegal (West Africa) and tries to go back home every 2 years.",
-              company: "Strategic Account Manager - AR/VR Global Sales @ Facebook",
+              company:
+                "Strategic Account Manager - AR/VR Global Sales @ Facebook",
             },
             {
               avatar: MichelleTanaka,
@@ -85,7 +86,8 @@ function SpeakersSection(props) {
               name: "Ashley Buckner",
               bio:
                 "Ashley Buckner is the Admission Operations Manager at the Stanford Office of Undergraduate Admission. Prior to this role, Ashley served as an admission officer for five years and helped manage the Stanford alumni admission volunteer program. Ashley graduated from Stanford in 2012 with a major in Public Policy and a minor in Psychology.",
-              company: "Admissions Operations Manager @ Stanford Office of Undergraduate Admission",
+              company:
+                "Admissions Operations Manager @ Stanford Office of Undergraduate Admission",
             },
           ]}
         ></Speakers>

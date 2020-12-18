@@ -3,18 +3,18 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Clients from "./Clients";
-import Harvard from "../assets/schools/Harvard.png"
-import Stanford from "../assets/schools/Stanford.png"
-import Berkeley from "../assets/schools/Berkeley.png"
-import CarnegieMellon from "../assets/schools/CarnegieMellon.png"
-import CalPoly from "../assets/schools/CalPoly.png"
-import SantaClara from "../assets/schools/SantaClara.png"
-import Davis from "../assets/schools/Davis.png"
-import SJSU from "../assets/schools/SJSU.png"
-import UCMerced from "../assets/schools/Merced.png"
-import Dartmouth from "../assets/schools/Dartmouth.png"
-import AntelopeValley from "../assets/schools/AntelopeValley.png"
-import UCLA from "../assets/schools/UCLA.png"
+import Harvard from "../assets/schools/Harvard.png";
+import Stanford from "../assets/schools/Stanford.png";
+import Berkeley from "../assets/schools/Berkeley.png";
+import CarnegieMellon from "../assets/schools/CarnegieMellon.png";
+import CalPoly from "../assets/schools/CalPoly.png";
+import SantaClara from "../assets/schools/SantaClara.png";
+import Davis from "../assets/schools/Davis.png";
+import SJSU from "../assets/schools/SJSU.png";
+import UCMerced from "../assets/schools/Merced.png";
+import Dartmouth from "../assets/schools/Dartmouth.png";
+import AntelopeValley from "../assets/schools/AntelopeValley.png";
+import UCLA from "../assets/schools/UCLA.png";
 
 function SchoolsSection(props) {
   return (
@@ -92,9 +92,8 @@ function SchoolsSection(props) {
             {
               name: "UCLA",
               image: UCLA,
-              width: "210px"
-            }
-
+              width: "210px",
+            },
           ]}
         ></Clients>
       </Container>

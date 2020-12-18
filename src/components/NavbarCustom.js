@@ -25,10 +25,19 @@ function NavbarCustom(props) {
         </LinkContainer>
         <LinkContainer to="/">
           <Navbar.Brand>
-          <h2 style={{display: "inline-block", overflow: "none", whiteSpace: "nowrap", float:"left"}}>destined for x</h2>
+            <h2
+              style={{
+                display: "inline-block",
+                overflow: "none",
+                whiteSpace: "nowrap",
+                float: "left",
+              }}
+            >
+              destined for x
+            </h2>
           </Navbar.Brand>
         </LinkContainer>
-        
+
         <Navbar.Toggle
           aria-controls="navbar-nav"
           className="border-0"
@@ -71,13 +80,15 @@ function NavbarCustom(props) {
                 <LinkContainer to="/virtual-program">
                   <Nav.Link active={false}>Virtual Program</Nav.Link>
                 </LinkContainer>
-                <Dropdown.Divider/>          
+                <Dropdown.Divider />
                 <LinkContainer to="/mentorship-program">
                   <Nav.Link active={false}>Mentorship Program</Nav.Link>
                 </LinkContainer>
-                <Dropdown.Divider/>
+                <Dropdown.Divider />
                 <LinkContainer to="/miami-program">
-                  <Nav.Link active={false}>Miami Program (Coming soon)</Nav.Link>
+                  <Nav.Link active={false}>
+                    Miami Program (Coming soon)
+                  </Nav.Link>
                 </LinkContainer>
               </NavDropdown>
             </Nav.Item>

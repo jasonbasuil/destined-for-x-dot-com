@@ -4,10 +4,10 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Card from "react-bootstrap/Card";
 import Features2 from "./Features2";
-import undraw_youtube_tutorial from "../assets/icons/undraw_youtube_tutorial_2gn3.svg"
-import undraw_conference_call from "../assets/icons/undraw_conference_call_b0w6.svg"
-import undraw_Group_chat from "../assets/icons/undraw_Group_chat_unwm.svg"
-import undraw_conversation from "../assets/icons/undraw_conversation_h12g.svg"
+import undraw_youtube_tutorial from "../assets/icons/undraw_youtube_tutorial_2gn3.svg";
+import undraw_conference_call from "../assets/icons/undraw_conference_call_b0w6.svg";
+import undraw_Group_chat from "../assets/icons/undraw_Group_chat_unwm.svg";
+import undraw_conversation from "../assets/icons/undraw_conversation_h12g.svg";
 
 function FeaturesSection2(props) {
   return (

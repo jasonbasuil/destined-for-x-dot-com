@@ -2,7 +2,6 @@ import React from "react";
 import CtaSection from "./../components/CtaSection";
 
 function VolunteerPage(props) {
-
   return (
     <CtaSection
       bg="white"
@@ -16,7 +15,9 @@ function VolunteerPage(props) {
       buttonColor="primary"
       buttonOnClick={() => {
         // Navigate Mentor interest form
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLSeFRXYntnxjSN-5a5iQ5FNJCypxsWoQZyYdzmcv67qCuVr4aw/viewform");
+        window.open(
+          "https://docs.google.com/forms/d/e/1FAIpQLSeFRXYntnxjSN-5a5iQ5FNJCypxsWoQZyYdzmcv67qCuVr4aw/viewform"
+        );
       }}
     ></CtaSection>
   );

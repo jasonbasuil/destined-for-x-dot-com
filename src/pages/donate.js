@@ -5,7 +5,6 @@ import StatsSection from "./../components/StatsSection";
 //import FeaturesSection4 from "./../components/FeaturesSection4";
 
 function DonatePage(props) {
-
   return (
     <>
       <CtaSection

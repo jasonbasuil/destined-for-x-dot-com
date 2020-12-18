@@ -22,12 +22,12 @@ function CtaSection(props) {
         ></SectionHeader>
         {props.buttonText && (
           <Button
-          variant={props.buttonColor}
-          size="lg"
-          onClick={props.buttonOnClick}
-        >
-          {props.buttonText}
-        </Button>
+            variant={props.buttonColor}
+            size="lg"
+            onClick={props.buttonOnClick}
+          >
+            {props.buttonText}
+          </Button>
         )}
       </Container>
     </Section>

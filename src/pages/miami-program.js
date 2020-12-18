@@ -2,7 +2,6 @@ import React from "react";
 import HeroSection2 from "../components/HeroSection2";
 
 function MiamiProgramPage(props) {
-
   return (
     <>
       <HeroSection2

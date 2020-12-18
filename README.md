@@ -1,33 +1,45 @@
 ## Welcome
+
 This is the public repo for the Destined for X website. It launched in April 2020 as an initiative to move away from alternative website providers and have more creative control over functionality as we grow. We're always looking for people who are interested in helping us grow. Check out our ongoing Projects and reach out to us if you'd like to contribute!
 
 ## About Destined for X
-Our mission is to empower underreprented students to confidently craft a fulfilling future. 
+
+Our mission is to empower underreprented students to confidently craft a fulfilling future.
 
 We were founded in 2017 here in the San Francisco, Bay Area by a few motivated early career professionals who were looking to give back to students and teach them the tools that are necessary for personal success. What started off as a fun, immersive, week-long program every summer has turned into a movement and year-round community of motivated individuals looking to improve their lives through experiential learning and mentorship.
 
 ### Destined for X 2019 Class at Stanford University
+
 ![Destined for X 2019 Class at Stanford University](https://res.cloudinary.com/dwgvb9rdh/image/upload/c_scale,w_919/v1601585387/69467973_10221088037697044_5505520613109792768_o_m4pjkg.jpg)
 
-## 👉 Get Started 
+## 👉 Get Started
+
 Install dependencies
+
 ```
 npm install
 ```
+
 Install the Netlify CLI
+
 ```
 npm install netlify-cli -g
 ```
+
 Run the development server
+
 ```
 netlify dev
 ```
+
 When the above command completes you'll be able to view your website at `http://localhost:8888`
 
 _Note: You can run just the front-end with `npm run start`, but `netlify dev` also handles running your API endpoints (located in the `/api` directory)._
 
 ## 🥞 Stack
+
 This project uses the following libraries and services:
+
 - Framework - [Create React App](https://create-react-app.dev) with React Router
 - Styling - [Bootstrap](https://getbootstrap.com) with custom SASS styles
 - Authentication - [Firebase Auth](https://firebase.google.com/products/auth) (WIP)
@@ -35,8 +47,8 @@ This project uses the following libraries and services:
 - Analytics - [Google Analytics](https://googleanalytics.com) (WIP)
 - Hosting - [Netlify](https://netlify.com)
 
-
 ## 📚 Guide
+
 <details>
   <summary><b>Styles</b></summary>
   <p>
@@ -55,9 +67,9 @@ This project uses the following libraries and services:
   ```jsx
   import { Link, useRouter } from './../util/router.js';
 
-  function MyComponent(){
-    // Get the router object
-    const router = useRouter();
+function MyComponent(){
+// Get the router object
+const router = useRouter();
 
     // Get value from query string (?postId=123) or route param (/:postId)
     console.log(router.query.postId);
@@ -72,37 +84,40 @@ This project uses the following libraries and services:
         <button onClick={(e) => router.push('/about')}>About</button>
       </div>
     );
-  }
-  ```
-  </p>
+
+}
+
+````
+</p>
 </details>
 
 <details>
-  <summary><b>Authentication</b></summary>
+<summary><b>Authentication</b></summary>
 
-  <p>
-    This project uses <a href="https://firebase.google.com">Firebase Auth</a> and includes a convenient <code>useAuth</code> hook (located in <code><a href="src/util/auth.js">src/util/auth.js</a></code>) that wraps Firebase and gives you common authentication methods. Depending on your needs you may want to edit this file and expose more Firebase functionality.
+<p>
+  This project uses <a href="https://firebase.google.com">Firebase Auth</a> and includes a convenient <code>useAuth</code> hook (located in <code><a href="src/util/auth.js">src/util/auth.js</a></code>) that wraps Firebase and gives you common authentication methods. Depending on your needs you may want to edit this file and expose more Firebase functionality.
 
-  ```js
-  import { useAuth } from './../util/auth.js';
+```js
+import { useAuth } from './../util/auth.js';
 
-  function MyComponent(){
-    // Get the auth object in any component
-    const auth = useAuth();
+function MyComponent(){
+  // Get the auth object in any component
+  const auth = useAuth();
 
-    // Depending on auth state show signin or signout button
-    // auth.user will either be an object, null when loading, or false if signed out
-    return (
-      <div>
-        {auth.user ? (
-          <button onClick={(e) => auth.signout()}>Signout</button>
-        ) : (
-          <button onClick={(e) => auth.signin('hello@divjoy.com', 'yolo')}>Signin</button>
-        )}
-      </div>
-    );
-  }
-  ```
+  // Depending on auth state show signin or signout button
+  // auth.user will either be an object, null when loading, or false if signed out
+  return (
+    <div>
+      {auth.user ? (
+        <button onClick={(e) => auth.signout()}>Signout</button>
+      ) : (
+        <button onClick={(e) => auth.signin('hello@divjoy.com', 'yolo')}>Signin</button>
+      )}
+    </div>
+  );
+}
+````
+
   </p>
 </details>
 
@@ -116,16 +131,19 @@ npm run build
 ```
 
 Install the Netlify CLI
+
 ```
 npm install netlify-cli -g
 ```
 
 Then run this command in your project directory to deploy to Netlify
+
 ```
 netlify deploy
 ```
 
 See the <a target="_blank" href="https://docs.netlify.com/cli/get-started/#manual-deploys">Netlify docs</a> for more details.
+
   </p>
 </details>
 

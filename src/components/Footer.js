@@ -64,7 +64,9 @@ function Footer(props) {
           </div>
           <div className="copyright left">{props.copyright}</div>
           <div></div>
-          <div style={{maxWidth: "300px", textAlign: "left"}}>{props.ein}</div>
+          <div style={{ maxWidth: "300px", textAlign: "left" }}>
+            {props.ein}
+          </div>
         </div>
       </Container>
     </Section>
