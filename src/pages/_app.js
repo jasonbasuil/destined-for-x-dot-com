@@ -30,7 +30,7 @@ function App(props) {
             bg="white"
             variant="light"
             expand="md"
-            logo="//static1.squarespace.com/static/587dade6b3db2bee3e358563/t/5e2a80faa14fd526ec94b4d8/1584500907855/?format=1500w"
+            logo="https://res.cloudinary.com/dwgvb9rdh/image/upload/v1611699473/Screen_Shot_2021-01-26_at_2.16.57_PM_dcavz5.png"
           ></NavbarCustom>
           <MessengerCustomerChat
             pageId="669786999881921"

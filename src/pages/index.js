@@ -6,7 +6,6 @@ import TestimonialsSection from "./../components/TestimonialsSection";
 import CtaSection from "./../components/CtaSection";
 //import NewsletterSection from "./../components/NewsletterSection";
 import { useRouter } from "./../util/router.js";
-import montage from "../assets/videos/D4XMontageFinalShort.mp4";
 import MediaQuery from "react-responsive";
 
 function IndexPage(props) {
@@ -16,7 +15,7 @@ function IndexPage(props) {
     <>
       <MediaQuery minDeviceWidth={1224}>
         <video autoPlay muted loop id="montage" width="100%">
-          <source src={montage} type="video/mp4"></source>
+          <source src="https://res.cloudinary.com/dwgvb9rdh/video/upload/v1611699236/D4XMontageFinal480_zmvral.mov" type="video/mp4"></source>
         </video>
       </MediaQuery>
       <HeroSection
