@@ -85,7 +85,7 @@ function App(props) {
             bgImage=""
             bgImageOpacity={1}
             description=""
-            copyright="© 2020 Destined for X."
+            copyright="© 2021 Destined for X."
             ein="Destined for X is a registered 501(c)(3) public charity. EIN: 82-1227489. Donations are tax-deductible."
             logo={D4XIcon}
           ></Footer>
