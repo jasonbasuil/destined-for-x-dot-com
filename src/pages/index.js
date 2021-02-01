@@ -15,7 +15,7 @@ function IndexPage(props) {
     <>
       <MediaQuery minDeviceWidth={1224}>
         <video autoPlay muted loop id="montage" width="100%">
-          <source src="https://res.cloudinary.com/dwgvb9rdh/video/upload/v1611699236/D4XMontageFinal480_zmvral.mov" type="video/mp4"></source>
+          <source src="https://res.cloudinary.com/dwgvb9rdh/video/upload/v1612154707/D4XMontageFinalShort_kujfai.mp4"></source>
         </video>
       </MediaQuery>
       <HeroSection
