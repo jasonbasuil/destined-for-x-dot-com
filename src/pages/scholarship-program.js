@@ -13,7 +13,7 @@ function ScholarshipProgramPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="2021 Scholarship Program"
-        subtitle="We are excited to announce that Destined for X will be awarding 3 scholarships this year."
+        subtitle="We are excited to announce that Destined for X will be awarding 3 scholarships this upcoming academic year."
       ></HeroSection2>
       <div className="ScholarshipBannerContainer" style={{ textAlign: "center"}}>
         <a href="https://forms.gle/s72icorBvWq6PDzi9">
