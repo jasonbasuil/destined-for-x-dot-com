@@ -3,9 +3,9 @@ import "./../styles/global.scss";
 import NavbarCustom from "./../components/NavbarCustom";
 import IndexPage from "./index";
 import AboutPage from "./about";
+import ScholarshipProgramPage from "./scholarship-program";
 import VirtualProgramPage from "./virtual-program";
 import MentorshipProgramPage from "./mentorship-program";
-import MiamiProgramPage from "./miami-program";
 import TestimonialsPage from "./testimonials";
 import ApplyPage from "./apply";
 import TeamPage from "./team";
@@ -42,6 +42,11 @@ function App(props) {
           <Switch>
             <Route exact path="/" component={IndexPage} />
             <Route exact path="/about" component={AboutPage} />
+            <Route 
+              exact 
+              path="/scholarship-program"
+              component={ScholarshipProgramPage}
+            />
             <Route
               exact
               path="/virtual-program"
@@ -52,7 +57,6 @@ function App(props) {
               path="/mentorship-program"
               component={MentorshipProgramPage}
             />
-            <Route exact path="/miami-program" component={MiamiProgramPage} />
             <Route exact path="/testimonials" component={TestimonialsPage} />
             <Route exact path="/apply" component={ApplyPage} />
             {/* <Route exact path="/blog" component={BlogPage} /> */}

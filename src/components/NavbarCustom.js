@@ -69,26 +69,18 @@ function NavbarCustom(props) {
                 </LinkContainer>
               </NavDropdown>
             )}
-
-            {/* <Nav.Item>
-              <LinkContainer to="/about">
-                <Nav.Link active={false}>About</Nav.Link>
-              </LinkContainer>
-            </Nav.Item> */}
             <Nav.Item>
               <NavDropdown id="dropdown" title="Programs" alignRight={false}>
+                <LinkContainer to="/scholarship-program">
+                  <Nav.Link active={false}>Scholarship Program</Nav.Link>
+                </LinkContainer>
+                <Dropdown.Divider />
                 <LinkContainer to="/virtual-program">
                   <Nav.Link active={false}>Virtual Program</Nav.Link>
                 </LinkContainer>
                 <Dropdown.Divider />
                 <LinkContainer to="/mentorship-program">
                   <Nav.Link active={false}>Mentorship Program</Nav.Link>
-                </LinkContainer>
-                <Dropdown.Divider />
-                <LinkContainer to="/miami-program">
-                  <Nav.Link active={false}>
-                    Miami Program (Coming soon)
-                  </Nav.Link>
                 </LinkContainer>
               </NavDropdown>
             </Nav.Item>
