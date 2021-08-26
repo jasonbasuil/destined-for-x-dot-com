@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection2 from "../components/HeroSection2";
-import ScholarshipBanner from "../assets/scholarship/ScholarshipBannerFinal.png";
+import ScholarshipBanner from "../assets/scholarship/ScholarshipBannerFinal.jpg";
 
 function ScholarshipProgramPage(props) {
   return (
