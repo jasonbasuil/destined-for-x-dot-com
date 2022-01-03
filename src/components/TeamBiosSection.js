@@ -13,6 +13,7 @@ import Sam from "../assets/team/Sam.png";
 import Mel from "../assets/team/Mel.jpeg";
 import Meer from "../assets/team/Meer.jpg";
 import Ruben from "../assets/team/Ruben.jpg";
+import Yad from "../assets/team/Yad.png";
 
 function TeamBiosSection(props) {
   return (
@@ -102,6 +103,13 @@ function TeamBiosSection(props) {
               role: "",
               bio:
                 "Ruben Gomez graduated from California State University, Long Beach with a degree in B.S. Business Administration and an emphasis in Recommender Systems. He is passionate about solving for climate change, humanitarian aid, and serving underserved people. He is currently a researcher at Twitter focused on health. When he’s not working he enjoys traveling abroad, reading, cooking and exercising.",
+            },
+            {
+              avatar: Yad,
+              name: "Yadanar (Yad) Oo",
+              role: "",
+              bio:
+                "Yadanar (Yad) Oo graduated from UC Berkeley where she studied Business Administration. She currently works as a management consultant at a large consulting firm, helping technology companies with their growth strategy. As a first-generation college student herself, she is passionate about helping students from underrepresented backgrounds achieve their fullest potential. In her free time, she loves hiking on new trails, trying out new food, and painting.",
             },
           ]}
         ></TeamBios>
